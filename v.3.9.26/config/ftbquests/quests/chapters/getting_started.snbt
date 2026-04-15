@@ -1,0 +1,436 @@
+{
+	autofocus_id: "33961F7EE650AA60"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "5EA21B61C2E147CB"
+	icon: "minecraft:grass_block"
+	id: "7539C31213D86E55"
+	images: [
+		{
+			height: 1.0d
+			image: "prominent:textures/text/the_basics.png"
+			rotation: 0.0d
+			width: 2.504166666666667d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "prominent:textures/text/storage.png"
+			rotation: 0.0d
+			width: 2.504166666666667d
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			height: 4.0d
+			image: "prominent:textures/other/prominent_logo.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "prominent:textures/text/welcome.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			color: 11250603
+			height: 7.311518324607329d
+			image: "prominent:textures/text/prominence-desc.png"
+			rotation: 0.0d
+			width: 10.5d
+			x: 0.0d
+			y: -7.5d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&eComo un nacido de la llama, fuiste creado y enviado por S'kellak a este lugar; La Superficie, con un propósito importante debes emprender una Búsqueda de respuestas."]			icon: "minecraft:grass_block"
+			id: "1DD302BB650057E3"
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "¡Haz clic en mí y lee mi descripción!"			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "7B701D980200A661"
+				title: "Entrar al Overworld"				type: "dimension"
+			}]
+			title: "&aPrimeros Pasos"			x: 0.0d
+			y: -0.625d
+		}
+		{
+			dependencies: ["1DD302BB650057E3"]
+			description: [
+				"&7El &6libro de misiones&7 es muy importante en Proeminencia, y te guiará a través de la mayor parte de la progresión del juego."				""
+				"Para acceder fácilmente al &6libro de misiones&7, puedes hacer click en el ícono de libro en la arriba a la izquierda de tu inventario."				""
+				"&7Cuando abras una misión, el lado izquierdo muestra qué tareas necesitas hacer para terminar la misión, y el lado derecho muestra qué recompensas recibirás."			]
+			id: "6E9F5146EA3F505F"
+			rewards: [{
+				id: "78B218622FE5FA2B"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "¡Haz clic en mí y lee mi descripción!"			tasks: [{
+				id: "4184344EFBA63388"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:crops"
+					}
+				}
+				title: "¡Encuentra una fruta o verdura!"				type: "item"
+			}]
+			title: "&f&lCómo&r: &a¡Misiones!"			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BE6B7EC6F6CC58B"]
+			id: "52C0EB35542648C6"
+			rewards: [{
+				id: "3685CADB8B28BF24"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			subtitle: "Extrae algo de Cobre y usa el &eMejorar Pecho&r para hacer una mejora de cobre para tus &6cofres&r!"			tasks: [{
+				id: "1C2CEDE48DF1D506"
+				item: "ironchests:copper_chest_upgrade"
+				type: "item"
+			}]
+			title: "&e&lMejorando:&f &fCofres"			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E9F5146EA3F505F"]
+			description: ["Para abrir la pantalla de &2Capítulos de Misión&r, cierra esta misión y mueve tu cursor hacia la izquierda. Cada capítulo tiene un conjunto diferente de misiones que encajan con ese tema."]			icon: "minecraft:filled_map"
+			id: "33961F7EE650AA60"
+			rewards: [{
+				id: "10944260335D83B1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			subtitle: "¡Haz clic en mí y lee mi descripción!"			tasks: [{
+				id: "6E754EF86972872E"
+				title: "¡haz Clic! aquí!"				type: "checkmark"
+			}]
+			title: "&f&lCómo hacer: &r&aCapítulos"			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			id: "2BE6B7EC6F6CC58B"
+			rewards: [
+				{
+					id: "578E739C5F5BB9AC"
+					item: "ironchests:blank_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "4FA5E60B4E68FDBF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55DC8F156573C515"
+					item: "travelersbackpack:backpack_tank"
+					type: "item"
+				}
+			]
+			subtitle: "Craftear un &6cofre&r, que más tarde podrá ser mejorado."			tasks: [{
+				id: "17209749B99F5873"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:chests"
+					}
+				}
+				title: "Craftear un Cofre"				type: "item"
+			}]
+			title: "&f&lCómo&r: &aCraftear un Cofre"			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BE6B7EC6F6CC58B"]
+			description: [
+				"Para equipar una &9mochila&r, haz clic en el ícono Equipar en el menú &9mochila&r."				""
+				"Una &9mochila&r equipada, puedes abrirla prensando &bB&r"				""
+				"&9Mochilas&r pueden ser mejoradas a través de varios niveles. &9Mochilas&r con beneficios especiales pueden ser encontradas en cofres de botín."				""
+				"Para ver todos los &9mochila&r variantes, busca &d@traveler&r en la barra de búsqueda de &eREI&r."				""
+				"Puedes encontrar esta barra de búsqueda abajo en tu inventario."				""
+				"Hacer clic en los objetos en la lista de objetos a la derecha de su inventario mostrará sus recetas y usos."				""
+				"También puedes pulsar &bR&r y &bU&r mientras pasas el ratón sobre cualquier objeto para ver su Receta y Usos"			]
+			hide_dependency_lines: true
+			id: "702ED6D1B159048D"
+			rewards: [{
+				id: "1510D8B226901BAD"
+				item: "travelersbackpack:blank_upgrade"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "¡Haz clic en mí y lee mi descripción!"			tasks: [{
+				id: "524D333C37CC1E78"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&e&lActualización:&f Inventario"			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+				"Pulsa &a[M]&r para abrir el &eMapamundi&r."				""
+				"Para &ereclamar un trozo&r, simplemente debes hacer clic derecho arriba de un trozo, y seleccionar &eReclamar Seleccionados&r."				""
+				"Algunos servidores pueden tener límites de reclamación más bajos que lo normal. Mantente atento a este límite para no quedarte sin él."			]
+			icon: "supplementaries:slice_map"
+			id: "723951CD2A49AEB7"
+			rewards: [{
+				id: "3232A941301388D8"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "¡Haz clic en mí y lee mi descripción!"			tasks: [{
+				id: "1BC73062E2DC9CB8"
+				title: "¡Haz clic para continuar!"				type: "checkmark"
+			}]
+			title: "&e&lMultijugador: &dReclamación"			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["002FC90E5914D9C2"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/other/skellak.png"
+				}
+			}
+			id: "2F5A3E304ABAADF6"
+			rewards: [{
+				id: "2CBB2CDF05805373"
+				item: "prominent_ost:music_disc_iv"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "¡Continúa tu viaje a través de los otros Capítulos!"			tasks: [{
+				id: "721111D6BBD02194"
+				title: "¡haz Clic! aquí para Continuar!"				type: "checkmark"
+			}]
+			title: "&6&l¡Bienvenido a Proeminencia!"			x: 3.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			id: "002FC90E5914D9C2"
+			rewards: [{
+				id: "09883A3C64098DAA"
+				item: "fwaystones:waystone_scroll"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "La forma más fácil de teletransportarse entre ubicaciones es usar &ePiedras de Viaje&r. Las Piedras de Viaje generan naturalmente en aldeas y también son construibles."			tasks: [{
+				icon: "fwaystones:waystone"
+				id: "70CE3441ADA82DBA"
+				observe_type: 0
+				timer: 0L
+				title: "¡Usen una piedra de viaje!"				to_observe: "fwaystones:waystone"
+				type: "observation"
+			}]
+			title: "&f&lLo Esencial: &dTeletransportación"			x: 2.017857142857146d
+			y: -2.2207367240089795d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+				"&7El Árbol de Talentos, junto con subir de nivel, es el método más importante de progresión de jugador en Proeminencia, ya que con él puedes aumentar tus estadísticas y desbloquear nuevas habilidades."				""
+				"&7Está directamente ligado al subir de nivel, ya que recibirás un punto de talento cada 2 niveles."				""
+				"&7Puedes abrirlo al presionar &eN&7, para reiniciarlo, puedes usar un &ePergamino del Conocimiento&7. Este objeto será Consumido al usarlo y tus Puntos de talento serán recuperados."			]
+			icon: "prominent:knowledge_scroll"
+			id: "6F99CB89833D7AA2"
+			rewards: [{
+				id: "19F81DCB4196EE34"
+				item: "prominent:knowledge_scroll"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "¡Haz clic en mí y lee mi descripción!"			tasks: [{
+				id: "31F7356F773E8E8E"
+				title: "¡haz Clic! aquí para Continuar"				type: "checkmark"
+			}]
+			title: "&d&lProgresión: &e&lTalentos"			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: ["&7Todas las herramientas tendrán una Rareza Aleatorio &7. Esto afectará sus estadísticas. Para mejorar la Rareza, puedes &ereforgar las herramientas&7 usando la segunda pestaña en el Yunque. Requerirás &eun Material específico para la herramienta&7 y &euno de los 3 Minerales&7 para cambiar su Rareza con éxito. &c¡Puedes leer el tutorial de \"Reforjar\" para más Información!"]			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tiered:textures/gui/anvil_tab_icon.png"
+				}
+			}
+			id: "58AD6DBD81B67C1C"
+			rewards: [
+				{
+					count: 32
+					id: "4EB0CB7EF7E56D4D"
+					item: "tiered:limestone_chunk"
+					type: "item"
+				}
+				{
+					id: "64D9D6301277044B"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "¡Haz clic para leer mi descripción!"			tasks: [{
+				id: "2AC258EF05B19E8F"
+				item: "minecraft:anvil"
+				title: "Obtén un Yunque"				type: "item"
+			}]
+			title: "&f&lLo Esencial: &e&lRarezas \\& Remoldado"			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+				""
+				"&7Un aspecto fundamental de la progresión de tu jugador es el nivelado, que se muestra en la esquina superior izquierda de tu inventario."				""
+				"&7Crece con experiencia de Combate, como luchar contra enemigos o derrotar Jefes. Permite escalar enemigos a tu nivel, y sirve como requisito de progresión para luchar contra ciertos Jefes."				""
+				"&7Cada nivel obtienes un aumento en la salud máxima."				""
+				"&ePara algunos combates contra el Umbo, ¡es esencial estar en su nivel requerido! La misión del Umbo mostrará en su descripción el nivel recomendado si lo tienen."				""
+				"&cEl Nivel del Jugador es un nivel diferente al nivel de experiencia de tu Barra de Objetos!"			]
+			icon: "minecraft:writable_book"
+			id: "72EE0A2E9D410B2C"
+			rewards: [{
+				id: "645DC116254AAA07"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "¡Haz clic en mí y lee mi descripción!"			tasks: [{
+				id: "7E40E783D7E377CB"
+				title: "¡haz Clic! aquí para Continuar"				type: "checkmark"
+			}]
+			title: "&d&lProgreso:&6&lSubida de Nivel"			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"72EE0A2E9D410B2C"
+				"6F99CB89833D7AA2"
+			]
+			description: [
+				"&7El nivel máximo que puedes alcanzar está ligado a tu Progreso de Campaña."				""
+				"&7Si estás atascado en un nivel y no puedes subir, entonces no has desbloqueado el siguiente nivel."				""
+				"- &e1-10 Nivelación:"				"Desbloqueada por predeterminado"				""
+				"- &e11-50 Nivelación:"				"Desbloqueada al derrotar al primer umbo de la campaña &dInvasión del Vacío&7."				""
+				"Niveles &e51-65:"				"Desbloqueada al iniciar la campaña de la Era Hasturiana &7&e."				""
+				"&6Nivel 65 es el nivel máximo actual."			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplyskills:textures/mob_effect/undying.png"
+				}
+			}
+			id: "600F88849D115EDD"
+			shape: "hexagon"
+			subtitle: "¡Haz clic en mí y lee mi descripción!"			tasks: [{
+				id: "17D457CEC7A4515B"
+				title: "Continuar"				type: "checkmark"
+			}]
+			title: "&d&lProgreso:&e&lLímites de Nivel"			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F5A3E304ABAADF6"]
+			description: [
+				"&ePuedes encontrar la Wikia Oficial de Proeminencia&e en &9https://rpg.prominence.wiki &8(El enlace no es cliqueable)"				""
+				"&7Tiene más de 10 horas de contenido que puedes leer, abarcando más tutoriales profundos, guías avanzadas, guías para mods específicos, lore, consejos útiles y guías, ¡y más! Y lo mejor es que se está expandiendo más y más con el tiempo."			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "emi_loot:textures/gui/random_book.png"
+				}
+			}
+			id: "2B96D4BA73511402"
+			shape: "diamond"
+			subtitle: "¡Haz clic en mí y lee mi descripción!"			tasks: [{
+				id: "6D8469C9D4BE7FB6"
+				title: "Continuar"				type: "checkmark"
+			}]
+			title: "&eConsejo de experto: &7Verificar la wikia!"			x: 5.0535714285714235d
+			y: -2.6135938668661183d
+		}
+		{
+			dependencies: ["2F5A3E304ABAADF6"]
+			description: [
+				"&eLas tramas del tutorial&e son información esencial que debes conocer."				""
+				"&7Algunos también dicen que es la forma de obtener el Conocimiento Eterno."			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "emi_loot:textures/gui/random_book.png"
+				}
+			}
+			id: "0773C097052A3D27"
+			rewards: [{
+				count: 2
+				id: "61403C9010BD08CE"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "¡Haz clic en mí y lee mi descripción!"			tasks: [{
+				id: "54CE4C73454909E0"
+				title: "Continuar"				type: "checkmark"
+			}]
+			title: "&eConsejo de experto: &7¡Realiza los tutoriales!"			x: 5.053571428571431d
+			y: -1.6850224382946877d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+				"Para crear un grupo, usa el comando &e/openpac-parties create&7."				""
+				"Para invitar a un miembro, usa &e/openpac-parties member invite [Nombre]&7."				""
+				"&7Y para activar PVP (JcJ) entre miembros del grupo, usa &e/opacpvp&7. Ten en cuenta que todos los jugadores que participen en PVP (JcJ) necesitan activarlo."			]
+			icon: "supplementaries:slice_map"
+			id: "239866A8BF58469A"
+			rewards: [{
+				id: "39486CD50933E2A6"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "¡Haz clic en mí y lee mi descripción!"			tasks: [{
+				id: "5216CF72CFF2B653"
+				title: "¡Haz clic para continuar!"				type: "checkmark"
+			}]
+			title: "&e&lMultijugador: &dPartidas"			x: -1.482142857142854d
+			y: -3.292165295437549d
+		}
+	]
+	title: "&eComenzando"}

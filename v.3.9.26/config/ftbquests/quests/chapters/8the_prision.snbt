@@ -1,0 +1,143 @@
+{
+	autofocus_id: "0D23A31DAF3866F4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "8the_prision"
+	group: "3E586F2160161EEA"
+	icon: "graveyard:dark_iron_bars"
+	id: "419EFD597601A50B"
+	images: [{
+		height: 3.0d
+		image: "minecells:item/blood_sword"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.0d
+		y: -1.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "0D23A31DAF3866F4"
+			rewards: [{
+				id: "4A4473CE89392149"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "La entrada a la &8Prisión &r aparece aleatoriamente por todo el &aOverworld&r."			tasks: [{
+				dimension: "minecells:prison"
+				icon: "graveyard:dark_iron_bars"
+				id: "0E868C4F785876CA"
+				title: "Entrar a la Prisión"				type: "dimension"
+			}]
+			title: "&8Entrar a la Prisión"			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			id: "056835280827D016"
+			rewards: [
+				{
+					id: "2FCF73BFB5EB1746"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "40247E988E658E5A"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Aparece en &1La Guarida&r, la cual se puede encontrar subterráneamente en la dimensión &8Prisión &r. Para infligir daño al &dConjunctivius&r, primero debes matar los tentáculos."			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60BB85E2901C9AFB"
+				title: "Derrota Conjunctivius"				type: "kill"
+				value: 1L
+			}]
+			title: "&lEnfrentamiento del Jefe: &d&lConjunctivius"			x: -2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			id: "3C8D91F2793CECAD"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Pasar por el ascensor encontrado en el último piso de la prisión te llevará al Paseo.\\n \\n&eSe sugiere traer una piedra de viaje o un Agujero de Gusano de Bolsillo contigo para volver a tu Inicio."			tasks: [{
+				dimension: "minecells:promenade"
+				icon: "minecells:promenade_torch"
+				id: "3D4982DEF40E26A6"
+				title: "Visita el Paseo"				type: "dimension"
+			}]
+			title: "&7Entrar la &cPaseo"			x: 2.4642857142857153d
+			y: 1.5178571428571388d
+		}
+		{
+			dependencies: ["58E9FDE95BB414C8"]
+			id: "618580FC7F5FFBD0"
+			subtitle: "Los Cell Crafters te permiten crear diversas armas de cuerpo a cuerpo y armas a distancia para tu arsenal en las Celdas de la Mina."			tasks: [{
+				icon: "minecells:cell_crafter"
+				id: "57DD47C8EC79E9E4"
+				observe_type: 0
+				timer: 0L
+				title: "Usa un Fabricador de Células"				to_observe: "minecells:cell_crafter"
+				type: "observation"
+			}]
+			title: "Craftear un &cFabricador de Células"			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			id: "58E9FDE95BB414C8"
+			subtitle: "Las Celdas de Monstruo caen de los monstruos en la dimensión &8Prisión &r."			tasks: [{
+				id: "5A6C4572411834AA"
+				item: "minecells:monster_cell"
+				type: "item"
+			}]
+			title: "Saque botín de una celda de monstruo"			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58E9FDE95BB414C8"]
+			id: "364E9528AE5F1047"
+			subtitle: "Algunas armas que se pueden crear en el Fabricador de Células requieren Acero Infundido con Células para ser hechas. Ten esto en cuenta."			tasks: [{
+				id: "492AFFEA634E0376"
+				item: "minecells:cell_infused_steel"
+				type: "item"
+			}]
+			title: "Craftea algo de acero infundido con células &b&r"			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			description: ["&ePuede ser fabricado con Guts y Celdas de Monstruo."]			id: "447E7AA3CB192FE4"
+			subtitle: "El Frasco de Salud es un objeto muy útil que te sana el 10% de tu salud máxima y otorga regeneración por unos segundos."			tasks: [{
+				icon: "minecells:health_flask"
+				id: "2D109EBD7B56015A"
+				title: "¡Sanadores rápidos!"				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+	title: "&7La Prisión"}

@@ -1,0 +1,896 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eenchanting"
+	group: "5EA21B61C2E147CB"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:item/enchanted_book"
+		}
+	}
+	id: "472AF31E92BAA1CC"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7 Para iniciar tu viaje de Encantando, conoces lo esencial, consigue una Mesa de encantamientos."				""
+				"&7 Al usar una Mesa de encantamientos, verás 3 barras abajo de ella: Eterna, Cuánta y Arcanos."				""
+				"&7 &aEterna&7 - Controles el nivel de tu Mesa de encantamientos; esto cambia el costo, pero también qué encantamientos puedes obtener. El nivel de EXP es 2x el de Eterna, por lo que 50 Eterna son 100 Niveles necesarios para encantar."				""
+				"&7 &4Cuánta&7 - Caos puro, cuanto más tienes, más aleatorio se vuelve todo, no se recomienda llevarlo al máximo."				""
+				"&7 &5Arcanos&7 - Esta estadística cambia la rareza, cantidad de encantamientos. No quieres el máximo de esto para obtener cosas como Protección o Fuego Solar."			]
+			id: "2F8B1BF5905F954D"
+			rewards: [{
+				id: "55EED9C1AD97DB82"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "pentagon"
+			subtitle: "Mejorando aún más tu equipo"			tasks: [{
+				id: "29BBF4C4493B2D31"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "La Mesa de encantamientos"			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7Para continuar en tu viaje, tu siguiente paso es la Librería Oceánica o la Librería Infernal, Esto te dará algunas de tus primeras Estadísticas para tu Encantando. Necesitarás 15 en total o una mezcla de ambos para empezar por completo."				"Craftea algunos más de cualquiera de ellos para infundirlos."			]
+			hide_until_deps_complete: true
+			id: "379C7E6854F4F226"
+			rewards: [{
+				id: "21C7579D17F3F929"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "¡Que comience la aventura!"			tasks: [{
+				count: 5L
+				id: "7CFE22664BFEA884"
+				item: "zenith:seashelf"
+				type: "item"
+			}]
+			title: "Comenzando, Librerías Oceánicas"			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7Para continuar en tu viaje, tu siguiente paso es la Librería Oceánica o la Librería Infernal, Esto te dará algunas de tus primeras Estadísticas para tu Encantando. Necesitarás 15 en total o una mezcla de ambos para empezar por completo."				"Craftea algunos más de cualquiera de ellos para infundirlos."			]
+			hide_until_deps_complete: true
+			id: "52D4F78DE9C64FF3"
+			rewards: [{
+				id: "38792BBCB5C18018"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "¡Que comience la aventura!"			tasks: [{
+				count: 5L
+				id: "3945BAB14D78B572"
+				item: { Count: 5, id: "zenith:hellshelf" }
+				type: "item"
+			}]
+			title: "Comenzando, Librerías Infernales"			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"52D4F78DE9C64FF3"
+				"379C7E6854F4F226"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&7Deberás fabricar muchos de estos también, &45-10&7, aunque más siempre está bien; es mejor excederse que no tener suficiente."]			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2B99DDA42BB7716C"
+			rewards: [{
+				id: "561CFBB9B1F0D4CA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "No tan caliente como Vaaz"			tasks: [{
+				count: 5L
+				id: "44D305E5285AAEE1"
+				item: { Count: 5, id: "zenith:infused_hellshelf" }
+				type: "item"
+			}]
+			title: "Más caliente que antes"			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"52D4F78DE9C64FF3"
+				"379C7E6854F4F226"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&7Craftea un par de estos, quizás un par más para más tarde, &45-10&7 debería ser suficiente para el futuro."]			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "75D6FF466F4DA932"
+			rewards: [{
+				id: "64CBDD9BE4077D57"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "No tengo respuesta. Solo soy un aprendiz en esta misión."			tasks: [{
+				count: 5L
+				id: "4C5147D7218117A8"
+				item: "zenith:infused_seashelf"
+				type: "item"
+			}]
+			title: "¿Librería Oceánica o Conchas?"			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75D6FF466F4DA932"]
+			description: [
+				"&7Necesitarás al menos 2 de cualquiera de los siguientes Estantes: Librerías Oceánicas Cristalinas, Librerías Oceánicas Forjadas con Corazón, Librerías Infernales Llameantes o Librerías Infernales Luminiscentes."				"&7 Esto creará 15 Estantes Imbuidos y dos de los más altos, lo que debería llevarte a 30 Eterna, siempre y cuando hayas seguido esto."			]
+			id: "55DC0E4792D27682"
+			rewards: [{
+				id: "2DD241DDC4714A0E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Hecho con amor <3"			tasks: [{
+				id: "39013B63D1996B34"
+				item: "zenith:heart_seashelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["75D6FF466F4DA932"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Necesitarás al menos 2 de cualquiera de los siguientes Estantes: Librería Oceánica Cristalina, Librería Oceánica Forjada con Corazón, Librería Llameante o Librería Luminiscente."				"&7 Esto creará 15 Estantes Imbuidos y dos de los más altos, lo que debería llevarte a 30 Eterna, siempre y cuando hayas seguido esto."			]
+			id: "4011B9F44111D91E"
+			rewards: [{
+				id: "5F0672AF47DC0643"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "¡Brillante!"			tasks: [{
+				id: "0250CC346A0DD595"
+				item: "zenith:crystal_seashelf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B99DDA42BB7716C"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Necesitarás al menos 2 de cualquiera de los siguientes Estantes: Librería Oceánica Cristalina, Librería Oceánica Forjada con Corazón, Librería Llameante o Librería Luminiscente."				"&7 Esto creará 15 Estantes Imbuidos y dos de los más altos, lo que debería llevarte a 30 Eterna, siempre y cuando hayas seguido esto."			]
+			hide_dependent_lines: true
+			id: "760BEB0339ED65A9"
+			rewards: [{
+				id: "17F855382C24A86F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "¡Se está poniendo caliente!"			tasks: [{
+				id: "15378E2783A5AAB3"
+				item: "zenith:blazing_hellshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B99DDA42BB7716C"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Necesitarás al menos 2 de Cualquiera de los siguientes Estantes: Librería Oceánica Cristalina, Librería Oceánica Forjada del Corazón, Librería Infernal Llameante o Librería Infernal Luminiscente."				"&7 Esto creará 15 Estantes Imbuidos y dos de los más altos, lo que debería llevarte a 30 Eterna, siempre y cuando hayas seguido esto."			]
+			hide_dependent_lines: true
+			id: "7F5414CC388648FC"
+			rewards: [{
+				id: "73E6B66E82C0771C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Espero que no sea Radiación"			tasks: [{
+				id: "65876EEF7C4D9EA6"
+				item: "zenith:glowing_hellshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0250CC346A0DD595"
+				"0250CC346A0DD595"
+				"760BEB0339ED65A9"
+				"7F5414CC388648FC"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&7Estos son tu siguiente paso, aprenderás a odiarlos, o a amarlos, dependiendo de si sigues enganchado o no. Asegúrate de llevarte todo de una Ciudad Antigua, confía en mí, lo necesitarás. Fragmentos resonantes y serán bastante importantes en el siguiente paso."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "3638B82292E58322"
+			rewards: [{
+				id: "7613C7BF62A57A0F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Dormido, pero no muerto"			tasks: [{
+				count: 5L
+				id: "21B4339658E55FEF"
+				item: { Count: 5, id: "zenith:dormant_deepshelf" }
+				type: "item"
+			}]
+			title: "Silencio absoluto"			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3638B82292E58322"]
+			description: ["&7No te preocupes, no muerden, son tu siguiente paso, aunque se usan principalmente para crafteo, ¡así que haz tantos como puedas hasta que puedas hacer unos 8!"]			id: "181E4D8DC20A161F"
+			rewards: [{
+				id: "1A26975999222863"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "¡DESPIERTA!"			tasks: [{
+				count: 5L
+				id: "7DA53A17D1F442CF"
+				item: { Count: 5, id: "zenith:deepshelf" }
+				type: "item"
+			}]
+			title: "Cuanto más profundo el estante, más profundos tus bolsillos"			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["181E4D8DC20A161F"]
+			description: ["&7Necesitarás 8 de estos, estos y o los otros para llegar a donde quieres llegar, infusiones y buenos encantos."]			id: "14688027AF83AD58"
+			rewards: [{
+				id: "7667E39FE00B63FD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Un sonido distante, como si un corazón estuviera latiendo en algún lugar..."			tasks: [{
+				id: "415BC1C4DB113498"
+				item: "zenith:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["181E4D8DC20A161F"]
+			description: ["&7Necesitarás 8 de estos, estos y o los otros para llegar a donde quieres llegar, infusiones y buenos encantos."]			id: "7BE41C566915CAC0"
+			rewards: [{
+				id: "3C1E9BFF3F769D2E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Como si tocara algo, no debería..."			tasks: [{
+				id: "79ED4BC5C5C5D852"
+				item: "zenith:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B0F69F532F25CED"]
+			description: [
+				"&7Muchos Tomos hacen muchas cosas. Aquí hay un breve desglose:"				""
+				"&7Los Tomos"				""
+				"&7Los diferentes Tomos de Equipo pueden usarse para obtener ciertos encantamientos solo posibles en algunos conjuntos de equipo o piezas de armadura, como Caída de Plumas."			]
+			id: "3DCC7DFC27102E56"
+			rewards: [
+				{
+					count: 8
+					id: "21DEA676A6696DFF"
+					item: "zenith:scrap_tome"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4F49EBEDED48949C"
+					item: "zenith:pickaxe_tome"
+					type: "item"
+				}
+				{
+					id: "6B1BE2D2621D208D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Toma"			tasks: [{
+				id: "67A155F5E166C842"
+				type: "checkmark"
+			}]
+			title: "¿Qué son los Tomes?"			x: 4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5D65F9ABAFC04598"]
+			dependency_requirement: "one_completed"
+			description: ["Puedes infundir Toma&7, las Toma son excelentes para extraer Encantamientos de equipo, dividiéndolos, con, por ejemplo un &eYunque encantado con División&7, esto hará que el libro se divida en sus componentes, ¡súper útil si has encontrado algo genial pero el arma es mala! Asegúrate de LEERlos antes de usarlos, algunos pueden hacer que pierdas el objeto en el que lo estás usando."]			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:enchanting_table"
+			id: "1B0F69F532F25CED"
+			rewards: [{
+				id: "4EBEBE754EDFD150"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "pentagon"
+			subtitle: "Suena divertido, ¿qué es eso?"			tasks: [
+				{
+					count: 3L
+					id: "0FE9FC98DF5C07A0"
+					item: { Count: 3, id: "zenith:melonshelf" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2269676675535AEF"
+					item: { Count: 3, id: "minecraft:bookshelf" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "158A742BA6990074"
+					item: { Count: 8, id: "zenith:echoing_sculkshelf" }
+					type: "item"
+				}
+			]
+			title: "Tu Primera Configuración de Infusión"			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["14688027AF83AD58"]
+			description: ["Actualiza los Estantes que acabas de hacer, ¡los necesitarás para el siguiente paso!"]			id: "5D65F9ABAFC04598"
+			rewards: [{
+				id: "61E5B6DC54ED44D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Un zumbido..."			tasks: [{
+				count: 8L
+				id: "0195AEE90B3A28AD"
+				item: "zenith:echoing_sculkshelf"
+				type: "item"
+			}]
+			title: "Los ecos desde las profundidades."			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: ["&7A veces encuentras Objetos que otorgan Maldiciones; estas Maldiciones no pueden ser eliminadas de formas normal, sino que requieren una Telaraña Especial, de lo contrario no se quitan."]			id: "39501B35F8A9520C"
+			rewards: [
+				{
+					count: 4
+					id: "3DE9DD8EFDD49D8D"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					id: "335DEF7D39E00FDA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "¡Maldición!"			tasks: [{
+				id: "1DD01687EDBB66CA"
+				item: "zenith:prismatic_web"
+				type: "item"
+			}]
+			title: "¡Maldiciones!"			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B0F69F532F25CED"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Sobrevivir al Aliento de dragón sin ser un dentista es difícil, hay dos maneras:"				""
+				"&7&9Tomarlo del dragón durante la pelea&7. Es sencillo; solo trae muchas botellas y captura su aliento."				""
+				"&7&9Aldeanos Alquimistas&7 también pueden venderlo, aunque es un intercambio de Nivel más alto."				""
+				"&7Una vía muy poco fiable también es saquear mazmorras, como Shiraz, la probabilidad es, pero nunca cero."			]
+			id: "3CC8482AB27413C3"
+			rewards: [{
+				id: "3071D1638FAAAF49"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "¡De menta!"			tasks: [{
+				id: "306E3015FF1A27CA"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "Excursión: Aliento de dragón"			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3CC8482AB27413C3"]
+			id: "6D97D1472D47E236"
+			rewards: [{
+				count: 3
+				id: "2446D43D8683AF42"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			subtitle: "Par Mentiroso"			tasks: [{
+				count: 3L
+				id: "0F2CE0A37D163724"
+				item: { Count: 3, id: "zenith:infused_breath" }
+				type: "item"
+			}]
+			title: "Aliento de Dragón Imbuido"			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"2B99DDA42BB7716C"
+				"75D6FF466F4DA932"
+				"181E4D8DC20A161F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7 Esto es, por mucho, &4el mejor Objeto&r que puedas imaginar para tus Encantamientos! &4Todos los Encantamientos, Almacenado&r en un Bloque, ¡incluso compatible con AE2! ¿Qué más quieres? Solo deja que una Cara de Bus de Almacenamiento lo haga y tendrás acceso a todos tus Encantamientos y Maldiciones favoritas!"				""
+				"&7 &4se puede minar&r"			]
+			hide_dependency_lines: true
+			id: "01683B1B161E67AB"
+			rewards: [{
+				count: 2
+				id: "169ABD5DBB70C2A2"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "¡Mantiene mucho!"			tasks: [{
+				id: "1F1F4DA2AB2D3456"
+				item: "zenith:library"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01683B1B161E67AB"]
+			description: ["&7Esto hace lo mismo, pero más grande, y más elegante también si me lo preguntas."]			id: "6E555092C38226CC"
+			subtitle: "Y pensé que se quemó..."			tasks: [{
+				id: "1B100A9D48825486"
+				item: "zenith:ender_library"
+				type: "item"
+			}]
+			title: "Estantería de Alejandría"			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3CBCFFD3B30E10E0"
+				"5CC063470E38D1AA"
+				"286D2A30B3320935"
+			]
+			description: ["&7Necesitarás esto para la Estantería de Alejandría; la mayoría, si no todos, también son necesarios para el siguiente paso, no te preocupes."]			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:enchanting_table"
+			id: "01B622F25CE780AF"
+			rewards: [{
+				id: "7AC10A78B3C3FF62"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "pentagon"
+			subtitle: "¡Estás tan cerca de estar listo!"			tasks: [
+				{
+					count: 5L
+					id: "150113F1F7073B09"
+					item: { Count: 5, id: "zenith:endshelf" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1EE3757E1307E447"
+					item: { Count: 2, id: "zenith:treasure_shelf" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6ECF86FB20B46A79"
+					item: { Count: 4, id: "zenith:echoing_sculkshelf" }
+					type: "item"
+				}
+			]
+			title: "Cómo encantar casi tan grande como los grandes cañones"			x: 11.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B0F69F532F25CED"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2684EE4739B501F6"
+			rewards: [{
+				id: "53B2CC2AB2A44EDC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "De naturaleza caótica"			tasks: [{
+				count: 5L
+				id: "7CAD7E899B740A3C"
+				item: { Count: 5, id: "zenith:endshelf" }
+				type: "item"
+			}]
+			title: "El último tramo - Librería del End"			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2684EE4739B501F6"]
+			description: ["&7Similar a la Librería Dracónica, necesitarás más de estos también; es mejor siempre hacer un par más. Las varas del End se pueden fabricar y encontrar en Ciudades del End; ¡no deberías tener problemas para encontrar Cualquiera!"]			id: "5CC063470E38D1AA"
+			rewards: [{
+				id: "56673431B588EF62"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Blanco perlado!"			tasks: [{
+				count: 4L
+				id: "168712189D4FFCD1"
+				item: { Count: 4, id: "zenith:pearl_endshelf" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2684EE4739B501F6"]
+			description: ["&7Las cabezas de Enderdragón pueden encontrarse en barcos; necesitarás un par de estos estantes más tarde. Es mejor que hagas unos 5-6 si puedes ahorrar las cabezas."]			id: "286D2A30B3320935"
+			rewards: [{
+				id: "680672A17BE230CA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "¡Rooooar!"			tasks: [{
+				id: "180727F1CD0353E7"
+				item: "zenith:draconic_endshelf"
+				type: "item"
+			}]
+			title: "Librería Dracónica"			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2684EE4739B501F6"]
+			description: ["&7Son caros, pero no puedes evitarlos; sus estadísticas son geniales y también lo es su efecto. Haz un par también si puedes ahorrar los recursos."]			id: "3CBCFFD3B30E10E0"
+			rewards: [{
+				id: "75459C34259B5713"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "¡Brillo Brillo!"			tasks: [{
+				count: 2L
+				id: "79D4CEE65DF64B8D"
+				item: { Count: 2, id: "zenith:treasure_shelf" }
+				type: "item"
+			}]
+			title: "¡Brillante!"			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["56C00181CBB95EB0"]
+			description: ["&7Usa cualquiera de las configuraciones para infundir encantamientos."]			icon: "minecraft:enchanting_table"
+			id: "379E8A63DC6E5A5C"
+			rewards: [{
+				id: "6CADEC76C9C4EDEF"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "¡Por fin!"			tasks: [
+				{
+					count: 7L
+					id: "43379A33C0312849"
+					item: { Count: 7, id: "zenith:melonshelf" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7207A14D2D67BE6F"
+					item: { Count: 6, id: "zenith:blazing_hellshelf" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6C5E55FCEA69891F"
+					item: { Count: 5, id: "zenith:pearl_endshelf" }
+					type: "item"
+				}
+				{
+					id: "578078FD7001177F"
+					item: "zenith:draconic_endshelf"
+					type: "item"
+				}
+			]
+			title: "Infusión de Amuleto: Cómo hacerlos Irrompibles I"			x: 11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["56C00181CBB95EB0"]
+			description: ["&7¡Usa cualquiera de las configuraciones para poder infundir encantamientos!"]			icon: "minecraft:enchanting_table"
+			id: "049AF60D64091458"
+			rewards: [{
+				id: "5617603B2193CC5B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "¡Por fin!"			tasks: [
+				{
+					count: 5L
+					id: "6648BAF04E1A79DA"
+					item: { Count: 5, id: "zenith:draconic_endshelf" }
+					type: "item"
+				}
+				{
+					id: "7683F506288E5E74"
+					item: "zenith:treasure_shelf"
+					type: "item"
+				}
+				{
+					id: "2B9DE408A58CB038"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "4CEA3A10F9008019"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:candles"
+						}
+					}
+					title: "Cualquiera #minecraft:velas"					type: "item"
+				}
+			]
+			title: "Infusión de Amuleto: Cómo hacerlos Irrompible II"			x: 13.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["01B622F25CE780AF"]
+			description: ["&7Esto es todo lo que necesitas, Máximo de todo. Filtra con la Librería Oceánica de Filtración Acuática, puedes tener tantos como quieras, asegúrate de bajar los Arcanos si quieres encantamientos como Protección o Clase, como Fuego Solar. Es mejor encantar en masa y tirar todo en una Biblioteca Encantando."]			icon: "minecraft:enchanting_table"
+			id: "6D36893D5374B38B"
+			rewards: [
+				{
+					id: "1D92906E686EF072"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "6C919A3AAD22C952"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Encantando Máximo"			tasks: [
+				{
+					count: 5L
+					id: "22C42D5B6451D475"
+					item: { Count: 5, id: "zenith:soul_touched_sculkshelf" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7CC672CE8358F354"
+					item: { Count: 4, id: "zenith:echoing_sculkshelf" }
+					type: "item"
+				}
+				{
+					id: "630F2837F2F63237"
+					item: "zenith:draconic_endshelf"
+					type: "item"
+				}
+				{
+					id: "16FA226E9105028E"
+					item: "zenith:treasure_shelf"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "08F4523E38C248C7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:candles"
+						}
+					}
+					title: "Cualquiera #minecraft:velas"					type: "item"
+				}
+				{
+					count: 3L
+					id: "2713D3D1E03B8E88"
+					item: { Count: 3, id: "zenith:rectifier_t3" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "467CB71A2261B501"
+					item: { Count: 2, id: "zenith:sightshelf_t2" }
+					type: "item"
+				}
+				{
+					id: "287901607B616925"
+					item: "zenith:filtering_shelf"
+					type: "item"
+				}
+			]
+			title: "&eLA MADRE DE TODOS ENCANTAMIENTOS"			x: 15.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["01B622F25CE780AF"]
+			description: ["&7Este es el momento en que finalmente puedes hacerlos irrompibles, como se prometió antes; las siguientes dos misiones te mostrarán tus mejores opciones."]			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "56C00181CBB95EB0"
+			rewards: [{
+				id: "32A05BF7E1EBA11D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			subtitle: "¡Ahora hazlos irrompibles!"			tasks: [{
+				id: "4D5C7C609F415DBB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "trinkets:hand/charm"
+					}
+				}
+				title: "Cualquiera de los amuletos:mano/amuleto"				type: "item"
+			}]
+			title: "Encantamientos II: Boogaloo Eléctrico"			x: 12.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7 Los Encantamientos son una excelente manera de obtener efectos de Poción de mayor duración. Ten en cuenta que algunos están desactivados, pero la mayoría existen. Siempre se fabrican con 3 de la misma Poción, tienen durabilidad, lo que significa que tienes un par de opciones para evitar que se rompan:"				""
+				"&7 - La Irrompibilidad, combinada con la Reparación, puede hacer que duren mucho tiempo."				""
+				"&7 - Catalizador de Endurecimiento, sé que son caros para ti ahora mismo, así que ten uno para tu Amuleto, elige sabiamente si quieres usarlo en tu actual."				""
+				"&7 - Infusión, aprenderás de esto en un momento posterior. ¡Sigue la Línea de Misión un poco más hasta que estés preparado!"			]
+			id: "0D3EA083E83FE6AF"
+			rewards: [{
+				id: "428763DDFC7E1739"
+				item: "things:hardening_catalyst"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "¡Encantador!"			tasks: [{
+				id: "10EBBFF3F2982BD8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "trinkets:hand/charm"
+					}
+				}
+				title: "Cualquiera de los amuletos:mano/amuleto"				type: "item"
+			}]
+			title: "Encantamientos I"			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: ["&7Con la Rienda de Ender puedes capturar la mayoría, si no todas las criaturas Pasivo&r, &eHostiles y otros Jugadores no funcionan&7, para eso necesitarás SpatialIO. Usa esto para tu querida mascota, algunas Ovejas que quieras llevar de vuelta a tu Fortaleza o quizás incluso para llenar tu Acuario."]			id: "7E791BE2C0D74016"
+			rewards: [{
+				id: "4E675E0EE80B1604"
+				item: {
+					Count: 1
+					id: "zenith:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "¡Esto no es una Pokébola!"			tasks: [{
+				id: "0313B2BB589AD702"
+				item: {
+					Count: 1
+					id: "zenith:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Pokébola está registrada como marca comercial"			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7Hay un par de objetos que pueden usar para obtener más niveles; aquí hay una lista de ellos:"				""
+				"&7&9Armadura&7: Souldancer, completamente adornado con ribete de Cuarzo (Plantilla de Forja Aleatoria + Cuarzo)."				""
+				"&7&9Accesorios&7: Anzuelo Dorado y Sombrero Supersticioso"				""
+				"Mochila de Lapislázuli: Mochila de Lapislázuli"				""
+				"&7&9Encantamientos de Arma que ayudan&7: Looting, Carroña, Devorador de Almas y Poder del Conocimiento (ESTE CONVIERTE OBJETOS EN EXP, NO USAR EN JEFES)"				""
+				"&7&9Armadura Encantar&7: Bolsa de Almas"				""
+				"&7No necesitas todos de estos, hay otras maneras de conseguir XP, puedes recolectar y elegir cuáles de estos Estampados de Mojang puedes hacer y que realmente necesitarás."			]
+			id: "15AF68754CE02E4A"
+			rewards: [{
+				id: "5D49BC2EC790F43C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "¡Necesitarás una tonelada!"			tasks: [{
+				id: "09987381BB96DE43"
+				title: "Cómo obtener niveles"				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: ["&7Yunque Puede Ser Encantando con Obliteración y Divisor; este último es increíblemente útil para dividir un libro encantado más grande que obtuviste en más pequeños. Una de las únicas formas de Extraer solo algunos encantamientos de un arma o libro incluye esto."]			id: "5D62225195633904"
+			rewards: [{
+				id: "59493EE82EBCFA4B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "¡CLANG!"			tasks: [{
+				id: "31F16606F96454B7"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Yunque Encantando"			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52D4F78DE9C64FF3"]
+			dependency_requirement: "one_started"
+			description: ["&7Lágrimas de Ghast pueden ser intercambiadas por el Alchemista de Journesman, a veces encontradas en mazmorras del Nether. Los Ghast tienden a tener una tasa de aparición más baja, así que, buena suerte."]			id: "65967FFB6D25BD30"
+			rewards: [{
+				id: "24EA0CB52EC9C2CA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "¿Por qué llorar?"			tasks: [{
+				id: "3EC1DC3EF9D96059"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "Obtención de Lágrimas de Ghast"			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["379C7E6854F4F226"]
+			dependency_requirement: "all_started"
+			description: ["&7Estos dos pueden salir de Maldecidor a Granel con un Ventilador Revestido y alguna forma de obtener algo de Fuerza Rotacional"]			id: "0AACB9207417BB72"
+			rewards: [{
+				id: "325B504046C091EB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Cuando el monumento oceánico está demasiado lejos"			tasks: [
+				{
+					id: "1EE29D15B252AEDB"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					id: "0E3D15DF3DFC8600"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+			]
+			title: "Prismarina"			x: -2.0d
+			y: -3.5d
+		}
+	]
+	title: "&eEncantando"}
