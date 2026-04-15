@@ -9,15 +9,14 @@ Este proyecto lo he hecho con el objetivo de proporcionar una traducción lo má
 Si valoras el tiempo invertido y quieres ayudarme a seguir trayendo más contenido, ¡toda ayuda es bienvenida!
 
 ### 📱 Comunidad y Redes
-* 🎥 **YouTube:** [Suscríbete aquí](https://www.youtube.com/@Slaaard)
-* 💜 **Twitch:** [Sígueme](https://www.twitch.tv/tslaaard)
-* 📱 **TikTok:** [Sígueme](https://www.tiktok.com/@slaaard)
-* ⚒️ **CurseForge:** [Descarga mis proyectos desde aquí](https://www.curseforge.com/members/slaaard/projects)
+[![](https://i.ibb.co/sJ6jSp8Y/Patreon2.png)](https://www.patreon.com/Slard)    [![](https://i.ibb.co/R4vzWCP7/Discord.png)](https://discord.com/invite/PB33JucgM7)    [![](https://i.ibb.co/ZR7Vs99x/Youtube2.png)](https://www.youtube.com/@Slaaard)    [![](https://i.ibb.co/5hvQcr3B/Twitch.png)](https://www.twitch.tv/tslaaard/about)    [![](https://i.ibb.co/TMk5fsNj/Tik-Tok.png)](https://www.tiktok.com/@slaaard)
+
 
 ### ☕ Apoyo Económico
 Si deseas contribuir directamente al mantenimiento de las traducciones:
 * 🧡 **Patreon:** [Conviértete en mecenas](https://www.patreon.com/c/Slard)
 * 💙 **PayPal:** [Enviar una donación](https://www.paypal.me/DanielRuiz592)
+* ⚒️ **CurseForge:** [Descarga mis proyectos desde aquí](https://www.curseforge.com/members/slaaard/projects)
 
 **¡Muchas gracias por tu apoyo! ✨**
 
@@ -27,7 +26,7 @@ Si deseas contribuir directamente al mantenimiento de las traducciones:
 
 Esta traducción ha sido **probada y funciona correctamente** en las siguientes versiones del ModPack:
 
-- `v.3.9.26`
+- `v3.9.26`
 
 No se garantiza compatibilidad con versiones anteriores o futuras. Si decides probarla en otra versión, ¡cuéntame tu experiencia creando un issue o dejando un comentario en el video tutorial! Tu feedback puede ayudarme a mantener esta traducción actualizada. 🔧
 

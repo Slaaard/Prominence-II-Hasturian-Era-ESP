@@ -194,15 +194,26 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&eNivel Recomendado: 15"				""
-				"&7&oEl Guantelete, una vez el vigilante Ojeademonio y primero heraldo de Nether, ha caído ahora al abrazo oscuro de Vacío. Esclavizado por ser uno de los heraldos de El vacío, ahora amenaza su propio reino con su destrucción."				""
-				"&7&oMayo encontrarás el Guantelete Bloqueada dentro de una prisión monolítica. Rompe su ojo, y desatarás el ahora Corrompido ser."				""
-				"&eConsejo: &7Este Umbo tiene golpes fuertes y puede matarte de un golpe si estás jugando en Normal o Difícil dificultad! ¡Intenta esquivar o craftear Pociones defensivas!"				""
-				"&8Español"				"***"				"Nivel Recomendado: 15"				""
-				"&7&oEl Guantelete, una vez el vigilante y primer heraldo del Nether, ahora ha caído por el oscuro abrazo del Vacío. Esclavizado como uno de sus heraldos, amenaza con la destrucción de su propio reino, el Nether."				""
-				"&7&oPuedes encontrar el Guantelete encerrado en una prisión monolítica. Rompe su ojo y desatarás a la bestia ahora corrompida."				""
-				"&eConsejo: &7Este jefe tiene ataques poderosos que pueden matarte de un solo golpe si juegas en dificultad Normal o Difícil! Intenta esquivar los ataques o prepara pociones defensivas."				""
-				"&8Español"			]
+				"&eRecommended Level: 15"
+				""
+				"&7&oThe Gauntlet, once the vigilant watcher and first herald of the Nether, hath now fallen to the dark embrace of the Void. Slaved upon being one of the Void's heralds, it now threatens its own realm with its destruction."
+				""
+				"&7&oThou may find the Gauntlet locked within a monolithic prison. Shatter its eye, and thou shalt unleash the now corrupted beeing."
+				""
+				"&eTip: &7This boss has strong hits and may one shot you if playing on Normal or Hard difficulty! Try to dodge or craft defensive potions!"
+				""
+				"&8English"
+				"{@pagebreak}"
+				"&eNivel Recomendado: 15"
+				""
+				"&7&oEl Guantelete, una vez el vigilante y primer heraldo del Nether, ahora ha caído por el oscuro abrazo del Vacío. Esclavizado como uno de sus heraldos, amenaza con la destrucción de su propio reino, el Nether."
+				""
+				"&7&oPuedes encontrar el Guantelete encerrado dentro de una prisión monolítica. Rompe su ojo y desatarás a la bestia ahora corrompida."
+				""
+				"&eTip: &7Este jefe tiene ataques fuertes que pueden matarte de un golpe si juegas en dificultad Normal o Difícil! Intenta evadir los ataques o haz pociones defensivas."
+				""
+				"&8Español"
+			]
 			id: "1B76F8D3B54F3FE6"
 			min_required_dependencies: 1
 			rewards: [
@@ -250,17 +261,32 @@
 			dependencies: ["7CBAFED315D614C3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&eNivel Recomendado: 10"				"Más adecuado para a distancia"				""
-				"&7&oLas almas de todos los reyes fallecidos de hace mucho tiempo del Reino de Ly'rell han sido resucitadas y corrompidas por El vacío, ahora conocido como un monstruo solitario llamado el Lichel Nocturno."				""
-				"&7&oEl Lichel Nocturno habita en la Superficie de Overworld. Búscalo en los biomas más fríos, dentro de los remanentes de una torre rota."				""
-				"&7&oPara encontrar esta estructura, usa Estrellas de Alma, veces soltadas por criaturas no muertas, que te guiarán hasta La Torre."				""
-				"&eConsejo: &7Esto es un Umbo a distancia; usa una montura de Ascensión si eres cuerpo a cuerpo, ¡o un Arco como arma secundaria!"				""
-				"&8Español"				"***"				"Nivel Recomendado: 10"				"Recomendado para Arqueros y Magos."				""
-				"&7&oLas almas de los antiguos reyes del Reino de Ly'rell, quienes han fallecido hace mucho tiempo, han sido resucitadas y corrompidas por el Vacío, formando un gran monstruo ahora conocido como el Liche Nocturno."				""
-				"&7&oEn los biomas más gélidos, en la cima de los restos de una colosal torre derrumbada, yacen atrapados."				""
-				"&7&oPara encontrar esta estructura, utiliza las Estrellas de Alma, restos de criaturas no muertas, que te guiarán hasta la torre."				""
-				"&eConsejo: &7Este jefe es de alto nivel, usa una montura voladora si eres de combate cuerpo a cuerpo, o un arco como arma secundaria!"				""
-				"&8Español"			]
+				"&eRecommended Level: 10"
+				"&cBetter suitable for Ranged"
+				""
+				"&7&oThe long deceased souls of all the kings of the Kingdom of Ly'rell hath been resurrected and corrupted by the Void, now known as a single monster called the Night Lich."
+				""
+				"&7&oThe Night Lich dwelleth upon the surface of the Overworld. Seek him in the colder biomes, within the remnants of a broken tower."
+				""
+				"&7&oTo find this structure, use Souls Stars, dropped by undead creatures, which shall guide thee to the tower."
+				""
+				"&eTip: &7This is a ranged boss, use a flying mount if you are melee, or a bow as secondary weapon!"
+				""
+				"&8English"
+				"{@pagebreak}"
+				"&eNivel Recomendado: 10"
+				"&cRecomendado para Arqueros y Magos."
+				""
+				"&7&oLas almas de los antiguos reyes del Reino de Ly'rell, quienes han fallecido hace mucho tiempo, han sido resucitadas y corruptas por el Vacío, formando un gran monstruo ahora conocido como el Liche Nocturno."
+				""
+				"&7&oEn los biomas más fríos, en la cima de los restos de una gran torre rota, yacen ellos atrapados."
+				""
+				"&7&oPara encontrar esta estructura, usa las Estrellas de Alma, caídas de criaturas no muertas, que te guiarán hasta la torre."
+				""
+				"&eTip: &7Este jefe es rango, usa una montura voladora si eres melee, o un arco como arma secundaria!"
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -318,14 +344,25 @@
 		{
 			dependencies: ["48AADA398DC4E940"]
 			description: [
-				"&eNivel Recomendado: 25"				""
-				"&7El Golem de Piedra Negra, el Heraldo final de El Inframundo, es una criatura formidable que puede ser invocado a través de su ritual dentro de El Inframundo."				""
-				"&7Construir una plataforma de 9x9 de cualquier tipo de Piedra Negra, con Soportes de Piedra Negra Pulida Cincelada en el centro de cada lado, pero a un bloque de distancia. Para Más Información, Verificar la línea de misiones de El Inframundo."				"&7Ubica un fragmento de Piedra Negra Áurea sobre cada soporte para comenzar el ritual."				""
-				"&8Español"				""
-				"***"				"Nivel Recomendado: 25"				""
-				"&7El Gólem de Piedra Negra, el último Heraldo del Nether, es un formidable golem que puede ser invocado a través de su propio ritual dentro del Nether."				""
-				"&7Erige una plataforma de 9x9 empleando cualquier tipo de Piedra Negra, y coloca soportes de Piedra Negra Pulida Cincelada en el centro de cada lado."				"Coloca un fragmento de piedra negra dorada sobre cada soporte para comenzar el ritual."				""
-				"&8Español"			]
+				"&eRecommended Level: 25"
+				""
+				"&7The Blackstone Golem, the Nether's final Herald, is a formidable creature that can be summoned through its ritual within the Nether."
+				""
+				"&7Construct a 9x9 platform of any kind of Blackstone, with Chiseled Polished Blackstone Holders in the middle of each side but one block out. For more info, Check out the Nether questline."
+				"&7Place a shard of gilded blackstone upon each holder to commence the ritual."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 25"
+				""
+				"&7El Gólem de Piedra Negra, el último Heraldo del Nether, es un formidable golem que puede ser invocado a través de su propio ritual dentro del Nether."
+				""
+				"&7Construye una plataforma de 9x9 utilizando cualquier tipo de Piedra Negra, con soportes de Piedra Negra Pulida Cincelada en el medio de cada lado."
+				"&7Coloca un fragmento de piedra negra dorada sobre cada soporte para comenzar el ritual."
+				""
+				"&8Español"
+			]
 			id: "5063E49140A8BB20"
 			rewards: [
 				{
@@ -360,14 +397,23 @@
 		{
 			dependencies: ["383590146CEEB423"]
 			description: [
-				"&eNivel Recomendado: 35"				""
-				"&7Los Restos del Viejo Campeón se pueden encontrar en su tumba, ocultos subterráneos en Overworld. Esta figura parecida a un esqueleto, que una vez fue un gran campeón, ahora ha sido poseída por otro ser."				""
-				"&8Sus ataques giran en torno a si está protegido, cambiando entre las posturas de escudos con los ataques."				""
-				"&8Español"				""
-				"***"				"Nivel Recomendado: 35"				""
-				"&7Los Restos Supr Viejo Campeón se encuentran en su tumba, oculta bajo tierra en el Supramundo. Esta figura esquelética, que alguna vez fue un gran campeón, ha sido poseída por otro ser."				""
-				"&8Sus ataques dependen de si está protegido, alternando entre posturas defensivas y embates."				""
-				"&8Español"			]
+				"&eRecommended Level: 35"
+				""
+				"&7The Old Champion's Remains can be found in its grave, hidden underground at the Overworld. This skeleton-like figure, who was once a great champion, now has been possessed by another being. "
+				""
+				"&8His attacks revolve around if he is guarded, switching between the shielding stances with the attacks."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 35"
+				""
+				"&7Los Restos del Viejo Campeón se encuentran en su tumba, oculta bajo tierra en el Supramundo. Esta figura esquelética, que alguna vez fue un gran campeón, ha sido poseída por otro ser."
+				""
+				"&8Sus ataques giran en torno a si está protegido, alternando entre posturas defensivas y ataques."
+				""
+				"&8Español"
+			]
 			id: "759AA6DD39277704"
 			rewards: [
 				{
@@ -408,16 +454,27 @@
 		{
 			dependencies: ["759AA6DD39277704"]
 			description: [
-				"&eNivel Recomendado: 40"				""
-				"&7Obsidilith, el monolito viviente, es el pilar de la influencia del Vacío en el End."				""
-				"&7Ubicada en su propia plataforma, una estructura arcanos de zombi gigante que puede ser encontrada flotando en el End. Para hacer que aparezca, usa un ojo de ender en la arriba de su plataforma."				""
-				"&eConsejo:&7 ¡Lleva un pico!"				""
-				"&8Español"				""
-				"***"				"Nivel Recomendado: 40"				""
-				"&7Obsidilith, el monolito viviente, es el pilar de la influencia del vacío en el End."				""
-				"&7Ubicado en su propia plataforma, una estructura gigantesca y extraña, que se encuentra flotando en el End. Para invocarlo, usa un ojo de enderman en la cima de su plataforma."				""
-				"&eConsejo: &7Trae un pico!"				""
-				"&8Español"			]
+				"&eRecommended Level: 40"
+				""
+				"&7Obsidilith, the living monolith, is the pillar of the void's influence in the End."
+				""
+				"&7Located at its own platform, a giant, eldritch structure that can be found floating in the end. To make it appear, use an eye of ender on the top of its platform."
+				""
+				"&eTip:&7 Bring a pickaxe!"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 40"
+				""
+				"&7Obsidilith, el monolito viviente, es el pilar de la influencia del vacío en El End."
+				""
+				"&7Ubicado en su propia plataforma, una estructura gigantesca y extraña, que se encuentra flotando en El End. Para invocarlo, usa un ojo de ender en la cima de su plataforma."
+				""
+				"&eTip: &7Trae un pico!"
+				""
+				"&8Español"
+			]
 			id: "103203350DABF6BB"
 			rewards: [
 				{
@@ -462,16 +519,27 @@
 		{
 			dependencies: ["103203350DABF6BB"]
 			description: [
-				"&eNivel recomendado: 50"				""
-				"&7La esencia pura de el End; el \"Ojo de Enderman\", ha sido corrompido por la presencia del Vacío, transformado en una criatura horrible. Ahora necesita ser guardado de la influencia del Vacío para establecer el equilibrio en la ahora desolada Dimensión."				""
-				"&7El Ojo solo puede ser invocado en un Santuario del Ojo. El Santuario está construido con una base de una plataforma de obsidiana de 5×5 y una capa de obsidiana llorosa centrada de 3×3. En las cuatro posiciones, debe colocarse una Vara del End. El Ojo solo puede ser llamado en la dimensión de el End."				""
-				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"				""
-				"&8Español"				""
-				"***"				"Nivel Recomendado: 50"				""
-				"&7La esencia pura del End; el \"Ojo del Enderman\", ha sido corrompida por la presencia del vacío y transformada en una criatura horrorosa. Ahora debe ser salvado de esa maligna influencia para restablecer el equilibrio en la ahora desolada dimensión."				""
-				"&7El Ojo solo puede ser invocado en un Santuario del Ojo. El Santuario se construye sobre una plataforma de obsidiana de 5x5 y una capa central de obsidiana llorosa de 3x3. En cada uno de los cuatro bordes se debe colocar una vara Supr Fin. En la cima del santuario, deberás sacrificar el huevo de dragón. El Ojo solo puede ser invocado en la dimensión Supr Fin."				""
-				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"				""
-				"&8Español"			]
+				"&eRecommended Level: 50"
+				""
+				"&7The raw essence of the end; the \"Ender Eye\", has been corrupted by the void's presence, turned into a horrific creature. It now needs to be saved from the void's influence to establish balance in the now desolated dimension."
+				""
+				"&7The Eye can only be summoned at an Eye Shrine. The Shrine is built with a base of a 5×5 obsidian platform and a 3×3 centered crying obsidian layer. On all four corners an end rod has to get placed. The Eye can only get called in The end dimension."
+				""
+				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 50"
+				""
+				"&7La esencia pura del End; el \"Ojo del Ender\", ha sido corrompida por la presencia del vacío y transformada en una criatura horrorosa. Ahora debe ser salvado de esa maligna influencia para restablecer el equilibrio en la ahora desolada dimensión."
+				""
+				"&7El Ojo solo puede ser invocado en un Santuario del Ojo. El Santuario se construye sobre una plataforma de obsidiana de 5x5 y una capa central de obsidiana llorosa de 3x3. En cada uno de los cuatro bordes se debe colocar una vara del end. En la cima del santuario, deberás tú sacrificar el huevo de dragón. El Ojo solo puede ser invocado en la dimensión del End."
+				""
+				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
+				""
+				"&8Español"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -518,14 +586,23 @@
 		{
 			dependencies: ["5063E49140A8BB20"]
 			description: [
-				"&eNivel Recomendado: 30"				""
-				"&7Este ojo Zombi gigante sirve como el eterno Ojeademonio de la Prisión de los Condenados, residiendo dentro de su propia Guarida en lo profundo de la Prisión."				""
-				"&7Para desafiarlo, debes primero obtener una Runa de Vid desde el Paseo de los Condenados. Con esta runa, gana acceso a la Guarida y enfrenta el ojo en batalla."				""
-				"&8Español"				""
-				"***"				"Nivel Recomendado: 30"				""
-				"&7Este ojo gigante actúa como el vigilante eterno de la Prisión de los Condenados, residiendo en su propia Guarida, en las profundidades de la Prisión."				""
-				"&7Para desafiarlo, primero debes obtener una Runa de Vid, obtenida en el Paseo de los Condenados. Con esta runa, accede a su Guarida y enfréntate al ojo en batalla."				""
-				"&8Español"			]
+				"&eRecommended Level: 30"
+				""
+				"&7This giant eye serves as the eternal watcher of the Prison of the Damned, residing within its own Lair deep in the Prison."
+				""
+				"&7To challenge it, thou must first obtain a Vine Rune from the Promenade of the Condemned. With this rune, gain access to the Lair and face the eye in battle."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 30"
+				""
+				"&7Este ojo gigante sirve como el vigilante eterno de la Prisión de los Condenados, residiendo en su propia Guarida, a las profundidades de la Prisión."
+				""
+				"&7Para desafiarlo, primero debes obtener una Runa de Vid, obtenida en Paseo de los Condenados. Con esta runa, accede a su Guarida y enfréntate al ojo en batalla."
+				""
+				"&8Español"
+			]
 			id: "383590146CEEB423"
 			rewards: [
 				{
@@ -574,15 +651,26 @@
 		{
 			dependencies: ["1B76F8D3B54F3FE6"]
 			description: [
-				"&eNivel Recomendado: 20"				""
-				"&7&oJean, una vez un noble y gran dragón de esmeralda, ha sucumbido a los tentáculos oscuros del Vacío. Ahora corrompida y consumida por la ira del Vacío, habita en el corazón del End, ahora conocido como el Enderdragón."				""
-				"&7&oNo es una hazaña sencilla, pues El vacío le ha otorgado formidables poderes, impulsada por una fuerte y inextinguible cólera conocida como el Enderman."				""
-				"&7&oPara desbloquear el Portal Antiguo al End, debes buscar doce de los dieciséis ojos únicos. Estos ojos están dispersos a lo largo de la vasta extensión de Overworld y las profundidades ardiendo de Nether."				""
-				"&8Español"				"***"				"Nivel Recomendado: 20"				""
-				"&7&oJean, la noble y gran dragona esmeralda, ha sucumbido a las oscuras garras del Vacío. Ahora corrupta y consumida por la ira del mismo, ronda por el corazón del End, conocida ahora como la Dragona del Ender."				""
-				"&7&oElla no es un reto sencillo, pues el Vacío le ha otorgado poderes formidables, impulsados por una furia fuerte e insaciable conocida como el Enderman."				""
-				"&7&oPara desbloquear el antiguo portal al Fin, debes buscar doce de los dieciséis ojos únicos. Estos ojos están esparcidos a lo largo de la vasta extensión del Overworld y las ardientes profundidades del Nether."				""
-				"&8Español"			]
+				"&eRecommended Level: 20"
+				""
+				"&7&oJean, once a noble and great emerald dragon, hath succumbed to the dark tendrils of the Void. Now corrupted and consumed by the Void's wrath, she dwelleth at the heart of the End, now known as the Ender Dragon."
+				""
+				"&7&oShe is no simple feat, for the Void hath bestowed upon her formidable powers, driven by a strong and unquenchable rage known as the Ender."
+				""
+				"&7&oTo unlock the ancient portal to the End, thou must seek out twelve of the sixteen unique eyes. These eyes are scattered throughout the vast expanse of the Overworld and the burning depths of the Nether."
+				""
+				"&8English"
+				"{@pagebreak}"
+				"&eNivel Recomendado: 20"
+				""
+				"&7&oJean, la noble y gran dragona esmeralda, ha sucumbido a las oscuras garras del Vacío. Ahora corrupta y consumida por la ira del mismo, ronda por el corazón del End, conocida ahora como la Dragona del Ender."
+				""
+				"&7&oElla no es un reto sencillo, pues el Vacío le ha otorgado poderes formidables, impulsados por una furia fuerte e insaciable conocida como el Ender."
+				""
+				"&7&oPara desbloquear el antiguo portal al End, debes buscar doce de los dieciséis ojos únicos. Estos ojos están esparcidos a lo largo de la vasta extensión del Overworld y las ardientes profundidades del Nether."
+				""
+				"&8Español"
+			]
 			id: "48AADA398DC4E940"
 			rewards: [
 				{
@@ -627,13 +715,20 @@
 		}
 		{
 			description: [
-				"&7&oProfundo dentro de Vaaz, el volcán primordial desde donde todo se originó, habita la Estatua Viviente, S'kellak, creador de todos los Estampados de Mojang."				""
-				"&7&oÉl mantiene el delicado equilibrio a través de todas las dimensiones y ha librado incontables batallas para evitar la destrucción de los reinos."				""
-				"&8Español"				""
-				"***"				""
-				"&7&oEn las profundidades de Vaaz, el volcán primordial del que surgió todo, habita la Estatua Viviente, S'kellak, el creador de todo lo que existe."				""
-				"&7&oÉl mantiene el delicado equilibrio a lo largo de todas las dimensiones y ha luchado incontables batallas para evitar la destrucción de los reinos."				""
-				"&8Español"			]
+				"&7&oDeep within Vaaz, the primordial volcano from where everything originated, dwells the Living Statue, S'kellak, creator of all things."
+				""
+				"&7&oHe upholds the delicate balance across all dimensions and has waged countless battles to stave off the destruction of the realms."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				""
+				"&7&oEn las profundidades de Vaaz, el volcán primordial de donde todo se originó, habita la Estatua Viviente, S'kellak, el creador de todo lo que exista."
+				""
+				"&7&oÉl mantiene el delicado equilibrio a lo largo de todas las dimensiones y ha luchado incontables batallas para evitar la destrucción de los reinos."
+				""
+				"&8Español"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -655,15 +750,22 @@
 			dependencies: ["343EF47C470616FF"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&o&7Sin embargo, ahora, después de que han pasado eones, S'kellak yace más débil que nunca. Una sombra terrible florece, una fuerza arcana conocida como El vacío."				""
-				"&o&7Por edades, S'kellak ha contenido El vacío, pero con su Fuerza ahora menguando, la Sombra surge, planeando hacer una Fisura y Color Destruir TODAS las realidades. Lo que una vez fueron seres serenos será Torcido en aberraciones mortales, mientras la Corrupción extiende sus viles zarcillos. La Hora del ajuste se acerca."				""
-				"&8Español"				""
+				"&o&7Yet now, after eons have passed, S'kellak lays weaker than ever before. A dire shadow blooms, an eldritch force known as The Void."
 				""
-				"***"				""
-				"&o&7Y ahora, tras eones, S'kellak yace más débil que nunca. Florece una sombría amenaza, una fuerza ancestral conocida como El Vacío."				""
-				"&o&7Durante eras, S'kellak ha contenido a este, pero con su poca fuerza, la sombra se alza, tramando corromper y destruir todos los reinos. Aquellos que antes eran seres serenos serán retorcidos en aberraciones mortales, mientras la corrupción extiende sus viles tentáculos. El tiempo de la destrucción se avecina."				""
+				"&o&7For ages, S'kellak has contained The Void, but with his strength now dwindling, the shadow surges, plotting to breach and destroy all realms. What once were serene beings shall be twisted into deadly aberrations, as corruption spreads its vile tendrils. The time of reckoning draws nigh."
 				""
-				"&8Español"			]
+				"&8English"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&o&7Y ahora, tras eones, S'kellak yace más débil que nunca. Una sombría amenaza florece, una fuerza ancestral, conocida como El Vacío."
+				""
+				"&o&7Durante eras, S'kellak ha contenido a este, pero con su poca fuerza, la sombra se alza, tramando corromper y destruir todos los reinos. Aquellos que antes eran seres serenos serán retorcidos en aberraciones mortales, mientras la corrupción extiende sus viles tentáculos. El tiempo de la destrucción se avecina."
+				""
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "bosses_of_mass_destruction:void_thorn"
@@ -681,13 +783,20 @@
 			dependencies: ["214E47AB3004E7D3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&o&7S'kellak ha descubierto una fuente de desequilibrio dentro de los reinos. Todas las dimensiones ahora portan la mancha de la horrible presencia del Vacío."				""
-				"&o&7Una vez, las criaturas serenas han sido torcidas en poderosas aberraciones por su toque corruptor. El destino de los reinos descansa sobre ti."				""
-				"&8Español"				""
+				"&o&7S'kellak hath discovered a source of unbalance within the realms. All dimensions now bear the taint of the void's horrid presence."
 				""
-				"***"				"&o&7S'kellak descubrió una fuente de desequilibrio en los reinos. Todas las dimensiones ahora llevan la mancha de la horrenda presencia del Vacío."				""
-				"&o&7Las criaturas que antes eran serenas han sido retorcidas en poderosas aberraciones por su toque corruptor. El destino de los reinos descansa sobre ti."				""
-				"&8Español"			]
+				"&o&7Once serene creatures have been twisted into powerful aberrations by its corrupting touch. The fate of the realms rests upon thee."
+				""
+				"&8English"
+				""
+				""
+				"{@pagebreak}"
+				"&o&7S'kellak descubrió una fuente de desequilibrio en los reinos. Todas las dimensiones ahora llevan la mancha de la horrenda presencia del Vacío."
+				""
+				"&o&7Las criaturas que antes eran serenas han sido retorcidas en poderosas aberraciones por su toque corruptor. El destino de los reinos descansa sobre ti."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "ftbquests:book"
@@ -705,14 +814,23 @@
 			dependencies: ["0E567E587E669BED"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7&oCon la derrota de las amenazas dimensionales y la Restauración del equilibrio de los reinos, S'kellak, El Fuego Eterno, habló directamente con el campeón."				""
-				"&6\"En reconocimiento de tu valor y dedicación,\"&r &7&oLa voz de S'kellak resonó,&r &6\"Te concedo un fragmento de mi esencia, el Núcleo Fundido.\""				""
-				"&7Este regalo, iluminado por el poder de S'kellak, significa ambos el triunfo del héroe y una promesa de continua Protección para los reinos."				""
-				"&8Español"				""
-				"***"				"&7&oCon la derrota de las amenazas, y la restauración del equilibrio de los reinos, S'kellak, El Fuego Eterno, habló directamente al campeón."				""
-				"&6\"En reconocimiento a tu valor y dedicación,\"&r &7&oLa voz de S'kellak resonó,&r &6\"te otorgo un fragmento de mi esencia, el Núcleo Fundido.\""				""
-				"&7Este regalo, iluminado por el gran poder de S'kellak, simboliza tanto el triunfo del héroe como una promesa de protección continua para los reinos."				""
-				"&8Español"			]
+				"&7&oWith the defeat of the dimensional threats and the restoration of the realms's balance, S'kellak, The Eternal Flame, spoke directly to the champion."
+				""
+				"&6\"In recognition of your valor and dedication,\"&r &7&oS'kellak's voice resonated,&r &6\"I bestow upon you a fragment of my essence, the Molten Core.\""
+				""
+				"&7This gift, illuminated by S'kellak's power, signifies both the hero's triumph and a pledge of continued protection for the realms."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7&oCon la derrota de las amenazas, y la restauración del equilibrio de los reinos, S'kellak, El Fuego Eterno, habló directamente al campeón."
+				""
+				"&6\"En reconocimiento a tu valor y dedicación,\"&r &7&oLa voz de S'kellak resonó,&r &6\"te otorgo un fragmento de mi esencia, el Núcleo Fundido.\""
+				""
+				"&7Este regalo, iluminado por el gran poder de S'kellak, simboliza tanto el triunfo del héroe como una promesa de protección continua de los reinos."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "prominent:molten_core"
@@ -737,12 +855,19 @@
 			dependencies: ["0E567E587E669BED"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7La Esencia del Enderman ha sido derrotada, pero su esencia escapó del vacío vacío, y se formó una grieta en el End. Algo viene."				""
-				"&7En lo profundo de el End, voces extrañas están susurrando ahora &8&o\"El Rey Amarillo está cerca\"&r."				""
-				"&8Español"				""
-				"***"				"&7La Esencia del Enderman ha sido derrotada, pero su esencia escapó del vacío vacío, y una grieta se ha formado en el End. Algo se acerca."				""
-				"&7En lo profundo del End, extrañas voces ahora susurran &8&o\"El Rey en Amarillo se aproxima\"&r."				""
-				"&8Español"			]
+				"&7The Ender's Essence has been defeated, but its essence escaped the empty void, and a rift was formed in the End. Something is coming."
+				""
+				"&7Deep in the end, strange voices are now whispering &8&o\"The King in Yellow is near\"&r."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7La Esencia del Ender ha sido derrotada, pero su esencia escapó del vacío vacío, y una grieta se ha formado en el End. Algo se acerca."
+				""
+				"&7En lo profundo del End, extrañas voces ahora susurran &8&o\"El Rey en Amarillo se aproxima\"&r."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "ftbquests:book"
@@ -764,14 +889,23 @@
 		{
 			dependencies: ["18E337BC1F3F75FD"]
 			description: [
-				"&eLa invasión ha sido detenida, por ahora.&r"				""
-				"&6\"Debemos prepararnos para lo que nos espera: una nueva forma de Magia que nos resulta desconocida, conocida como la Corrupción. Emprenderé una Misión para descubrir un nuevo Material que podría ofrecernos una probabilidad de lucha contra ella."				""
-				"&6En cuanto a ti, ese Núcleo Fundido no es más que un recipiente. Necesitarás las esencias de seres Antiguos. Una vez aprovechadas, estas esencias lo empoderarán para poder forjar los formidables Artefactos. Es tu misión obtenerlos.\" &e&oS'kellak lo explicó."				""
-				"&8Español"				""
-				"***"				"&eLa invasión ha sido detenida, por ahora.&r"				""
-				"&6\"Debemos prepararnos para lo que se avecina — una nueva forma de magia que desconocemos, conocida como la corrupción. Iré en busca de un nuevo material que podría darnos una oportunidad contra ella."				""
-				"&6En cuanto a ti, ese Núcleo Fundido no es más que un recipiente. Necesitarás las esencias de seres antiguos. Una vez dominadas, estas esencias lo empoderarán para forjar armas de artefacto. Tu misión es obtenerlas.\" &e&oexplicó S'kellak."				""
-				"&8Español"			]
+				"&eThe invasion has been halted, for now.&r"
+				""
+				"&6\"We must prepare for what lies ahead — a new form of magic that we're unfamiliar with, known as the corruption. I'll go on a quest to discover a new material that could offer us a fighting chance against it."
+				""
+				"&6As for you, that molten core is nothing but a vessel. You will need the essences of ancient beings. Once harnessed, these essences will empower it to be able to forge the formidable artifacts. It is your mission to obtain them.\" &e&oS'kellak explained."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eLa invasión ha sido detenida, por ahora.&r"
+				""
+				"&6\"Debemos prepararnos para lo que se avecina — una nueva forma de magia que desconocemos, conocida como la corrupción. Iré en busca de un nuevo material que podría darnos una oportunidad contra ella."
+				""
+				"&6En cuanto a ti, ese Núcleo Fundido no es más que un recipiente. Necesitarás las esencias de seres antiguos. Una vez dominadas, estas esencias lo empoderarán para forjar armas de artefacto. Tu misión es obtenerlas.\" &e&oexplicó S'kellak."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -838,12 +972,19 @@
 		{
 			dependencies: ["777FC868034D4BA5"]
 			description: [
-				"&eNivel recomendado: 50"				""
-				"&7Al usar la Esencia del Crepúsculo en el Antiguo Altar Lunar, devolverás a El Verdadero Heredero a su cuerpo Original. Esto resultará en la invocación del Ícono Caído, una versión poderosa y feroz del Caballero Retornado con una segunda fase rápida y peligrosa. Cuando es invocado, afectará a Cualquiera cercano con Debilidad, Náusea y Lentitud."				""
-				"&8Español"				""
-				"***"				"Nivel Recomendado: 50"				""
-				"&7Al usar la Esencia del Crepúsculo en el Antiguo Altar Lunar, devolverás al verdadero heredero a su cuerpo original. Esto resultará en la invocación del Ícono Caído, una versión feroz y más fuerte del Antiguo Campeón, con una segunda fase rápida y peligrosa. Al ser invocado, otorgará Debilidad, Náuseas y Lentitud a quienes estén cerca."				""
-				"&8Español"			]
+				"&eRecommended Level: 50"
+				""
+				"&7By using the Essence of Eventide on the Old Moon Altar, you will return the true heir back to its original body. This will result in the summoning of the Fallen Icon, a fierce empowered version of the Returning Knight with a fast and dangerous second phase. When summoned, it will affect anyone nearby with Weakness, Nausea, and Slowness."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 50"
+				""
+				"&7Al usar la Essence of Eventide en el Antiguo Altar Lunar, devolverás al verdadero heredero a su cuerpo original. Esto resultará en la invocación del Ícono Caído, una versión feroz y más fuerte del Antiguo Campeón, con una segunda fase rápida y peligrosa. Al ser invocado, dará Debilidad, Náuseas y Lentitud a quienes estén cerca."
+				""
+				"&8Español"
+			]
 			hide_until_deps_visible: true
 			icon: "prominent:glory_essence"
 			id: "7C7838CB12D2C972"
@@ -873,14 +1014,23 @@
 		{
 			dependencies: ["777FC868034D4BA5"]
 			description: [
-				"&eNivel recomendado: 50"				""
-				"&7Debe usar el Cuerno de Caparazón, encontrado en el Océano helado profundo. Invócala en el Laberinto de Hielo, cerca del agua."				""
-				"&7Cuando sea combatida, Mayo debilitarla, o ELSE no morirá."				""
-				"&8Español"				""
-				"***"				"Nivel Recomendado: 50"				""
-				"&7Debes usar el Cuerno encontrado en el Profundo Océano Congelado. Lámalo en el Laberinto de Hielo, cerca del agua."				""
-				"&7Al luchar, debe ser debilitada, o de lo contrario no caerá."				""
-				"&8Español"			]
+				"&eRecommended Level: 50"
+				""
+				"&7Must use the Shell Horn, found in the Deep Frozen Ocean. Call upon her in the Ice Maze, near water."
+				""
+				"&7When fought, may she be weakened, or else she shall not die."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 50"
+				""
+				"&7Debes usar el Cuerno encontrado en el Profundo Océano Congelado. Llámala en el Laberinto de Hielo, cerca del agua."
+				""
+				"&7Al luchar, debe ser debilitada, o de lo contrario no caerá."
+				""
+				"&8Español"
+			]
 			hide_until_deps_visible: true
 			icon: "prominent:wrath_essence"
 			id: "569B422A5AE03E53"
@@ -910,10 +1060,15 @@
 		{
 			dependencies: ["5472D472A72B4DB9"]
 			description: [
-				"&7La primitiva semilla de la creación, el &9Abismo Primordial&7 tiene la mayor influencia por los horrores cósmicos. Es una tierra corrompida con su propio tipo de vida corrompido, conocido como las &9aberraciones&7."				""
-				"&8Español"				""
-				"***"				"&7La semilla primitiva de la creación, el &9Abismo Primordial&7, está bajo la influencia de los horrores cósmicos. Es una tierra corrompida, que alberga formas de vida corruptas, conocidas como las &9aberraciones&7."				""
-				"&8Español"			]
+				"&7The primitive seed of creation, the &9Primordial Abyss&7 has the most influence by the cosmic horrors. It is a corrupted land with its own corrupted kind of life, known as the &9aberrations&7."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7La semilla primitiva de la creación, el &9Abismo Primordial&7, tiene la mayor influencia de los horrores cósmicos. Es una tierra corrompida con su propia forma de vida corrupta, conocidas como las &9aberraciones&7."
+				""
+				"&8Español"
+			]
 			hide_until_deps_visible: true
 			icon: "eldritch_end:abysmal_fronds"
 			id: "601BDBA6DF073CB0"
@@ -943,10 +1098,15 @@
 		{
 			dependencies: ["5472D472A72B4DB9"]
 			description: [
-				"&7Las Tierras Baldías de Hastia son una tierra desolada llena de espinas que son conocidas como las &eSpire Spikes&7. Algunas de estas espinas tienen un metal desconocido bendecido por Hastur. Podría ser la mejor manera de luchar contra la Corrupción."				""
-				"&8Español"				""
-				"***"				"&7El desierto hasturiano es una tierra desolada, plagada de picos conocidos como los &ePinchos de Espiral&7. Algunos de estos picos albergan un metal desconocido, bendecido por Hastur. Este podría ser el medio más poderoso para combatir la corrupción."				""
-				"&8Español"			]
+				"&7The hasturian wastes are a desolated land full of spikes that are known as the &eSpire Spikes&7. Some of these spikes have an unknown metal blessed by Hastur. It could be the best way to fight against corruption."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7El desierto hasturiano es una tierra desolada llena de picos que son conocidos como los &ePinchos de Espiral&7. Algunos de estos picos contienen un metal desconocido, bendecido por Hastur. Podría ser la mejor manera de luchar contra la corrupción."
+				""
+				"&8Español"
+			]
 			hide_until_deps_visible: true
 			icon: "eldritch_end:hasturian_moss"
 			id: "2500331DBBD67515"
@@ -976,11 +1136,16 @@
 		{
 			dependencies: ["18E337BC1F3F75FD"]
 			description: [
-				"&7Con la derrota de El Ojo, el End ha sido afectado por las fuerzas superiores del Vacío, &dlos horrores cósmicos&7. Seres Arcanos que albergan pura Corrupción en sus vetas."				""
-				"&8Español"				""
-				"***"				""
-				"&7Con la derrota de El Ojo, el End ha sido afectado por las fuerzas superiores del vacío, &dlos horrores cósmicos&7. Seres ancestrales que llevan corrupción pura en sus venas."				""
-				"&8Español"			]
+				"&7With the defeat of the The Eye, the end has been affected by the void's higher forces, &dthe cosmic horrors&7. Eldritch beings that hold pure corruption in their veins."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				""
+				"&7Con la derrota de El Ojo, el End ha sido afectado por las fuerzas superiores del vacío, &dlos horrores cósmicos&7. Seres ancestrales que llevan corrupción pura en sus venas."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "eldritch_end:aberration_heart"
@@ -997,10 +1162,15 @@
 		{
 			dependencies: ["601BDBA6DF073CB0"]
 			description: [
-				"&eLas Aberraciones.&7 Son criaturas horripilantes que viven en el Abismo Primordial. Ten cuidado con ellas, cuando te golpean, aplicarán &9corrupción&7 a ti, lo cual es apilable. No quieres que te golpeen varias veces."				""
-				"&8Español"				""
-				"***"				"&eLas Aberraciones.&7 Son bestias abominables que habitan en el Abismo Primordial. ¡Ten cuidado con ellas! Al golpearte, te infunden &9corrupción&7, un efecto que es acumulable. No querrás que te ataquen en múltiples ocasiones."				""
-				"&8Español"			]
+				"&eThe Aberrations.&7 They are horrific creatures that live in the Primordial Abyss. Be careful with them, when they hit you, they will apply &9corruption&7 to you, which is stackable. You don't want them to hit you multiple times."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eLas Aberraciones.&7 Son criaturas horribles que habitan en el Abismo Primordial. Ten cuidado con ellas, cuando te golpean, te aplican &9corrupción&7, la cual es acumulable. No querrás que te golpeen varias veces."
+				""
+				"&8Español"
+			]
 			id: "250AEC20271670DC"
 			rewards: [
 				{
@@ -1034,10 +1204,15 @@
 		{
 			dependencies: ["2500331DBBD67515"]
 			description: [
-				"El metal de las Espinas de la Aguja, &7&2Etyr&7, tiene un atributo único, es &2resistente a la Corrupción&7. Podríamos usar este metal para evitar que los horrores cósmicos corrompan el End."				""
-				"&8Español"				""
-				"***"				"&7El metal de los Picos de Agujas, &2Etyr&7, tiene una propiedad única: es &2resistente a la corrupción&7. Podríamos usar este metal para evitar que los horrores cósmicos corrompan el End."				""
-				"&8Español"			]
+				"&7The metal from the Spire Spikes, &2Etyr&7, has an unique attribute, it is &2resistant to corruption&7. We could use this metal to prevent the cosmic horrors from corrupting the end."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7El metal de los Picos de Agujas, &2Etyr&7, tiene una propiedad única: es &2resistente a la corrupción&7. Podríamos usar este metal para evitar que los horrores cósmicos corrompan el End."
+				""
+				"&8Español"
+			]
 			hide_until_deps_visible: true
 			id: "40BF64AA85FF6010"
 			rewards: [
@@ -1064,12 +1239,19 @@
 		{
 			dependencies: ["6EEFBD329C02E34A"]
 			description: [
-				"&6\"Iniciemos los preparativos para la invocación."				""
-				"&6Primero, necesitaremos un pedestal de invocación.\" &e&oS'kellak explicó."				""
-				"&8Español"				""
-				"***"				"&6\"Comencemos los preparativos para la invocación."				""
-				"&6Primero, necesitaremos un pedestal de invocación.\" &e&oexplicó S'kellak."				""
-				"&8Español"			]
+				"&6\"Let's start the preparations for the summoning."
+				""
+				"&6First, we will need a summoning pedestal.\" &e&oS'kellak explained."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"Comencemos los preparativos para la invocación."
+				""
+				"&6Primero, necesitaremos un pedestal de invocación.\" &e&oexplicó S'kellak."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "4AEBBAD5C5474582"
@@ -1097,10 +1279,15 @@
 		{
 			dependencies: ["4AEBBAD5C5474582"]
 			description: [
-				"&6\"No hay ninguna Cualquier Cosa. más duradero para esto que la piedra de ceniza, forjada directamente desde las profundidades de Vaaz. Esto debería ser suficiente para atrapar su esencia, pero me temo que no sé qué podrías desatar en el proceso\" &e&oS'k"				""
-				"&8Español"				""
-				"***"				"&6\"No hay nada más duradero para esto que la piedraceniza, forjada directamente en las profundidades de Vaaz. Esto debería ser suficiente para atrapar su esencia, pero me temo que no sé lo que podrías desatar en el proceso.\" &e&oDijo S'kellak."				""
-				"&8Español"			]
+				"&6\"There isn't anything more durable for this than cinderstone, forged directly from the depths of Vaaz. This should be enough to trap its essence, but I'm afraid that I don't know what you could unleash on the process\" &e&oS'kellak said"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"No hay nada más duradero para esto que la piedraceniza, forjada directamente en las profundidades de Vaaz. Esto debería ser suficiente para atrapar su esencia, pero me temo que no sé lo que podrías desatar en el proceso.\" &e&oDijo S'kellak."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			icon: "prominent:empty_vessel"
 			id: "3FEF5FC9AB6C6AAE"
@@ -1120,10 +1307,15 @@
 		{
 			dependencies: ["3FEF5FC9AB6C6AAE"]
 			description: [
-				"&6\"Está esperándote. Lleva ese Pedestal al End y coloca dos de las esencias del End que has encontrado allí: una Perla de ender y un Cristal del End. Prepárate, y no olvides atraparlo. Tienes mi Bendición, niño.\" &e&oS'kellak dijo"				""
-				"&8Español"				""
-				"***"				"&6\"Te está esperando. Lleva ese pedestal al End y coloca dos esencias del End, una perla de enderman y un cristal del End. Prepárate, y no olvides atraparlo. Tienes mi bendición, mi joven.\" &e&oDijo S'kellak."				""
-				"&8Español"			]
+				"&6\"It is waiting for you. Bring that pedestal to the End and place two of the end's essences you have found there, an ender pearl and a end crystal. Be prepared, and don't forget to trap it. You have my blessing, child.\" &e&oS'kellak said"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"Te está esperando. Lleva ese pedestal al End y coloca dos esencias del End, una perla de ender y un cristal del End. Prepárate, y no olvides atraparlo. Tienes mi bendición, mi joven.\" &e&oDijo S'kellak."
+				""
+				"&8Español"
+			]
 			id: "173314BDF690683E"
 			rewards: [
 				{
@@ -1162,14 +1354,23 @@
 		{
 			dependencies: ["173314BDF690683E"]
 			description: [
-				"&eNivel recomendado: 50"				""
-				"&7En lo profundo de la grieta de el End, se puede ver a un ser de tamaño humano lanzando un hechizo desconocido. Tu ritual podrá interrumpirlo y forzarlo a venir hacia ti."				""
-				"&7Null es un Umbo poderoso y ágil; se teletransportará siempre que lo golpees, y hará aparecer sirvientes para atacarte. Asegúrate de nunca dejar de atacarlo, ELSE sanará."				""
-				"&8Español"				""
-				"***"				"Nivel Recomendado: 50"				""
-				"&7En lo profundo de la grieta del End, se puede ver una figura del tamaño de un humano lanzando un hechizo desconocido. Tu ritual podrá interrumpirlo y obligarlo a enfrentarte."				""
-				"&7Null es un jefe poderoso y ágil; se teletransportará cada vez que lo golpees y convocará esbirros para atacarte. ¡Asegúrate de no cesar el asalto, o se curará!"				""
-				"&8Español"			]
+				"&eRecommended Level: 50"
+				""
+				"&7Deep inside the end's rift, a human sized being can be seen casting an unknown spell. Your ritual will be able to interrupt it, and force it to come at you."
+				""
+				"&7Null is a powerful and agile boss, it will teleport every time you hit him, and will spawn minions to attack you. Make sure to never stop attacking it, or else it'll heal."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 50"
+				""
+				"&7En lo profundo de la grieta del End, se puede ver una figura del tamaño de un humano lanzando un hechizo desconocido. Tu ritual podrá interrumpirlo y obligarlo a enfrentarte."
+				""
+				"&7Null es un jefe poderoso y ágil; se teletransportará cada vez que lo golpees y convocará esbirros para atacarte. Asegúrate de no dejar de atacarlo, o de lo contrario se curará."
+				""
+				"&8Español"
+			]
 			icon: "mcda:upgrade_core_void"
 			id: "67DD847F1737097C"
 			rewards: [
@@ -1215,14 +1416,23 @@
 		{
 			dependencies: ["18E337BC1F3F75FD"]
 			description: [
-				"&6\"Esto no ha terminado aún. Eso no fue más que una Sombra, y ahora con esta brecha, temo que no podremos hacer esto."				""
-				"&r&6A menos que usemos su propio Poder contra ellos. Podríamos atrapar a uno de los heraldos del vacío dentro de un recipiente, y con él, reunir su Poder. Pero primero, hazte un arma mejor, yo haré el recipiente.\"&e&o S'kellak dijo."				""
-				"&eSigue la línea de misión &cS'kellak's Forja&e para más información sobre la forja de armas artefactuales."				""
-				"&8Español"				""
-				"***"				"&6\"Esto aún no ha llegado a su fin. Eso no era más que una sombra, y ahora, con esta grieta, temo que no podremos lograrlo."				""
-				"&r&6A menos que... usemos su propio poder contra ellos. Podríamos atrapar a uno de los heraldos del vacío dentro de un recipiente, y con él, obtener su poder. Pero primero, fabrícate una mejor arma, yo haré el recipiente.\"&e&o dijo S'kellak."				""
-				"&eSigue la línea de misiones de la &cS'kellak's Forja&e para más información sobre la creación de armas artefacto."				""
-				"&8Español"			]
+				"&6\"This is not over yet. That was nothing but a shadow, and now with this rift, I'm afraid we won't be able to do this."
+				""
+				"&r&6Unless... we use their own power against them. We could trap one of the heralds of the void inside a vessel, and with it, gather their power. But first, make yourself a better weapon, I'll make the vessel.\"&e&o S'kellak said."
+				""
+				"&eFollow the &cS'kellak's Forge&e questline for more information on forging artifact weapons."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"Esto aún no ha terminado. Eso no era más que una sombra, y ahora, con esta grieta, temo que no podramos hacerlo."
+				""
+				"&r&6A menos que... usemos su propio poder contra ellos. Podríamos atrapar a uno de los heraldos del vacío dentro de un recipiente, y con él, obtener su poder. Pero primero, fabrícate una mejor arma, yo haré el recipiente.\"&e&o dijo S'kellak."
+				""
+				"&eSigue la línea de misiones de la &cS'kellak's Forge&e para más información sobre la creación de armas artefacto."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "6EEFBD329C02E34A"
@@ -1261,12 +1471,19 @@
 		{
 			dependencies: ["67DD847F1737097C"]
 			description: [
-				"&7&oDerecha antes del encarcelamiento de Null, lanzó el hechizo con éxito. Una gran criatura monstruosa apareció desde la grieta."				""
-				"&6\"El Desenfascado está aquí, otro de los heraldos del vacío, y la raíz de la Corrupción\" &e&oS'kellak dijo"				""
-				"&8Español"				""
-				"***"				"&7&oJusto antes del confinamiento de Null, logró lanzar el hechizo con éxito. Una gran criatura monstruosa emergió de la grieta."				""
-				"&6\"El Ignoto está aquí, otro de los heraldos del vacío, y el origen de la corrupción\" &e&oDijo S'kellak."				""
-				"&8Español"			]
+				"&7&oRight before Null's imprisonment, it successfuly casted the spell. A big monstrous creature appeared from the rift"
+				""
+				"&6\"The Faceless One is here, another of the void heralds, and the root of corruption\" &e&oS'kellak said"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7&oJusto antes del encarcelamiento de Null, logró lanzar el hechizo con éxito. Una gran criatura monstruosa apareció desde la grieta."
+				""
+				"&6\"El Ignoto está aquí, otro de los heraldos del vacío, y el origen de la corrupción\" &e&oDijo S'kellak."
+				""
+				"&8Español"
+			]
 			hide_until_deps_visible: true
 			icon: "ftbquests:book"
 			id: "245E77F81FB78B58"
@@ -1282,18 +1499,31 @@
 		{
 			dependencies: ["67DD847F1737097C"]
 			description: [
-				"&cRequiere Nivel 50"				""
-				"&dDesafíos Míticos&7 son encuentros de Fin del Juego desbloqueados después de vencer a Null. Son pesadillas infundidas con Vacío creadas por el ser Sin Rostro ahora desatado."				""
-				"&7Cada combate exitoso te otorgará un nuevo reloj de arena con un nivel más alto. Cuanto más alto sea el nivel, más fuerte es la pesadilla."				""
-				"&cMuriendo contra un Umbo Mítico fallará el desafío, y invocará un Reloj de Arena de nivel inferior."				""
-				"&7Puedes invocarlos con un &dReloj de Arena del Vacío&7. Si perdiste tu Reloj de Arena, puedes obtener uno nuevo desde Null, pero su nivel será 1."				""
-				"&8Español"				""
-				"***"				"&cRequiere Nivel 50"				""
-				"&dLos Desafíos Míticos&7 son encuentros de final de juego que se desbloquean tras derrotar a Null. Son pesadillas infundidas con el vacío, creadas por el ser Ignoto que ha sido liberado."				""
-				"&7Cada combate victorioso te concederá un nuevo reloj de arena con un nivel superior. Cuanto más alto sea el nivel, más poderosa será la pesadilla."				""
-				"Morir contra un jefe mítico fallará el desafío y convocará un nuevo reloj de arena de un nivel inferior."				""
-				"&7Puedes invocarlos con un &dReloj de Arena del Vacío&7. Si perdiste tu reloj de arena, puedes obtener uno nuevo de Null, pero su nivel será 1."				""
-				"&8Español"			]
+				"&cRequires Level 50"
+				""
+				"&dMythic Challenges&7 are endgame encounters unlocked after beating Null. They are void-infused nightmares created by the now unleashed Faceless being."
+				""
+				"&7Each successful fight will grant you a new hourglass with a higher level. The higher the level, the stronger the nightmare is."
+				""
+				"&cDying against a mythic boss will fail the challenge, and summon a new lower level hourglass."
+				""
+				"&7You can summon them with a &dVoid Hourglass&7. If you misplaced your hourglass, you can get a new one from Null, but its level will be 1."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&cRequiere Nivel 50"
+				""
+				"&dLos Desafíos Míticos&7 son encuentros de final de juego que se desbloquean tras derrotar a Null. Son pesadillas infundidas con el vacío, creadas por el ser Ignoto que ha sido liberado."
+				""
+				"&7Cada combate exitoso te otorgará un nuevo reloj de arena con un nivel superior. Cuanto mayor sea el nivel, más fuerte será la pesadilla."
+				""
+				"&cMorir contra un jefe mítico fallará el desafío y convocará un nuevo reloj de arena de un nivel inferior."
+				""
+				"&7Puedes invocarlos con un &dReloj de Arena del Vacío&7. Si perdiste tu reloj de arena, puedes obtener uno nuevo de Null, pero su nivel será 1."
+				""
+				"&8Español"
+			]
 			icon: {
 				Count: 1
 				id: "prominent:void_hourglass"
@@ -1316,14 +1546,23 @@
 		{
 			dependencies: ["7CD3D2757242817B"]
 			description: [
-				"&eNivel recomendado: 50"				""
-				"&7En el corazón de la influencia de El"				""
-				"&6\"Cuidado, solo debílita, y intentaré usar ¡Bájala! a Vaaz para atraparlo por la eternidad. El destino de los reinos está en ti.\" &eS'kellak dijo"				""
-				"&8Español"				""
-				"***"				"Nivel Recomendado: 50"				""
-				"&7En el corazón de la influencia del vacío, el Abismo Primordial, puedes invocar al heraldo del vacío, el ser ignoto, con su oscuro ritual, rompiendo el corazón de una aberración en el centro."				""
-				"&6\"Ten cuidado, solo debilítalo, y yo intentaré llevarlo a Vaaz para atraparlo por la eternidad. El destino de los reinos está en tus manos.\" &eDijo S'kellak."				""
-				"&8Español"			]
+				"&eRecommended Level: 50"
+				""
+				"&7At the heart of the void's influence, the Primordial Abyss, you may summon the herald of the void, the gruntling faceless being with its dark ritual, by breaking the heart of an aberration on the middle."
+				""
+				"&6\"Beware, just weaken it, and I'll attempt to bring it down to Vaaz to trap it for eternity. The fate of the realms is on you.\" &eS'kellak said"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 50"
+				""
+				"&7En el corazón de la influencia del vacío, el Abismo Primordial, puedes invocar al heraldo del vacío, el ser ignoto, con su oscuro ritual, rompiendo el corazón de una aberración en el centro."
+				""
+				"&6\"Ten cuidado, solo debilítalo, y yo intentaré llevarlo a Vaaz para atraparlo por la eternidad. El destino de los reinos está en tus manos.\" &eDijo S'kellak."
+				""
+				"&8Español"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1373,16 +1612,27 @@
 		{
 			dependencies: ["245E77F81FB78B58"]
 			description: [
-				"&eNivel recomendado: 50"				""
-				"&7Mago, el líder de Hex, es una de las llaves para que El Vacío entre en Overworld. No ha sido Corrompido, pero está impulsado por sus propios intereses y ha hecho un acuerdo con el Vacío."				""
-				"&7Es un mago poderoso; su barrera puede ser débil ante ciertos elementos, pero el encantamiento Golpeo también ayudará a romperla."				""
-				"&eUsando Magia o habilidades atraerá la atención del Hex. También puedes craftear una Ofrenda de Hoja Encantada para invocar a los Magísteres. Mata a los Magísteres para obtener potencialmente una Hoja Encantada y una Perla Prismática. Usa la Hoja Encantada en su Portal para viajar al Océano de Cristal y usa una Perla Prismática para invocarlo."				""
-				"&8Español"				""
-				"***"				"Nivel Recomendado: 50"				""
-				"&7Mago, el líder de los Hex, es una de las claves para que el vacío llegue al Overworld. No ha sido corrompido, pero está impulsado por sus propios intereses y ha hecho un pacto con el vacío."				""
-				"&7Es un poderoso mago; aunque su defensa es vulnerable ante ciertos elementos, el encantamiento Golpeo también le permitirá quebrarla."				""
-				"&eUsar magia o habilidades va a atraer la atención de los Hex. Usa una Hexblade en su portal para viajar al Océano de Cristal, y usa una Perla Prismatica para invocarlo."				""
-				"&8Español"			]
+				"&eRecommended Level: 50"
+				""
+				"&7Magus, the leader of the Hex, is one of the keys for the void to get into the Overworld. He hasn't been corrupted, but he's driven on his own interests and made an accord with the void."
+				""
+				"&7He's a powerful mage, its barrier may be weak to certain elements, but the Smite enchant will also help break it."
+				""
+				"&eUsing magic or abilities will gather the attention of the Hex. You can also craft a Hexblade offering to summon the Magisters. Kill the Magisters to potentially get a Hexblade and a prismatic Pearl. Use the Hexblade on their portal to travel to the Glass Ocean and use a Prismatic Pearl to summon him."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 50"
+				""
+				"&7Magus, el líder de los Hex, es una de las claves para que el vacío llegue al Overworld. No ha sido corrompido, pero está impulsado por sus propios intereses y ha hecho un pacto con el vacío."
+				""
+				"&7Es un poderoso mago, su barrera puede ser débil ante ciertos elementos, pero el encantamiento Golpeo también ayudará a romperla."
+				""
+				"&eUsar magia o habilidades va a atraer la atención de los Hex. Usa una Hexblade en su portal para viajar al Océano de Cristal, y usa una Perla Prismatica para invocarlo."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -1438,12 +1688,19 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&6\"Para invocar al último heraldo, tendrás que pasar por su propia magia oscura. Debes crear un arma nacida de la verdadera corrupción, la Marea de Terror, para volverte loco y atraer los pensamientos oscuros desde el Vacío, los Ojos de El Que Todo Lo Ve; necesitaremos 4 de ellos para el ritual."				""
-				"&6Mientras haces esto, encontraré más conocimiento sobre el ritual. Solo ten cuidado, no caigas en la locura, ya que no hay vuelta atrás.\" &e&oS'kellak dijo"				""
-				"&8Español"				""
-				"***"				"&6\"Para invocar al último heraldo, tendrás que utilizar su propia magia oscura. Deberías forjar un arma nacida de la verdadera corrupción, la Marea de Terror, para enloquecer y atraer los pensamientos más oscuros del vacío, los Ojos Omniscientes; necesitaremos 4 de ellos para el ritual."				""
-				"&6Mientras tanto, buscaré más sabiduría sobre el ritual. Pero ten mucho cuidado; no dejes que la locura te consuma, pues no hay retorno.\" &e&oDijo S'kellak."				""
-				"&8Español"			]
+				"&6\"To summon the last herald, you'll have to go through their own dark magic. You should make a weapon born of true corruption, The Dreadtide, to get yourself mad to attract the dark thoughts from the void, the All-Seeing Eyes; we'll need 4 of them for the ritual."
+				""
+				"&6While you do this, I'll find more knowledge on the ritual. Just beware, don't fall into madness, as there's no going back.\" &e&oS'kellak said"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"Para invocar al último heraldo, tendrás que utilizar su propia magia oscura. Deberías forjar un arma nacida de la verdadera corrupción, la Dreadtide, para enloquecer y atraer los pensamientos más oscuros del vacío, los Ojos Omniscientes; necesitaremos 4 de ellos para el ritual."
+				""
+				"&6Mientras haces esto, buscaré más conocimiento sobre el ritual. Solo ten cuidado, no caigas en la locura, ya que no hay vuelta atrás.\" &e&oDijo S'kellak."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			id: "0A5F7ABD54251511"
 			rewards: [{
@@ -1476,10 +1733,17 @@
 		{
 			dependencies: ["0A5F7ABD54251511"]
 			description: [
-				"&6\"He encontrado una de las páginas perdidas del Cetro de Sangre, esto debería ayudarte con el ritual. El Cetro de Sangre también establece que este ritual tiene que ser realizado en el Abismo Primordial.\" &e&oS'kellak dijo"				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"				""
-				"&8Español"				""
-				"***"				"&6\"He encontrado una de las páginas perdidas Supr Necronomicón, esto debería ayudarte con el ritual. El Necronomicón establece que este ritual debe realizarse en el abismo Primordial.\" &e&oDijo S'kellak."				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"				""
-				"&8Español"			]
+				"&6\"I have found one of the lost pages of the Necronomicon, this should help you with the ritual. The Necronomicon also states that this ritual has to be done in the Primordial abyss.\" &e&oS'kellak said"
+				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"He encontrado una de las páginas perdidas del Necronomicón, esto debería ayudarte con el ritual. El Necronomicón establece que este ritual debe realizarse en el abismo Primordial.\" &e&oDijo S'kellak."
+				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			id: "7CD3D2757242817B"
 			rewards: [{
@@ -1513,16 +1777,27 @@
 		{
 			dependencies: ["69574BA63A9F05E8"]
 			description: [
-				"&7El Desenfascado ha sido capturado y atrapado dentro de Vaaz, S'kellak lo interrogó."				""
-				"&9\"C' mgepmgah, llll h', c'den ephaiagl ot e'enhe, ymg' ahorna mgah ahf''s nog, ymg' ahorna mgah uh'eog ph'nglui turor\" &e&oEl Desenfascado dijo, en un idioma desconocido"				""
-				"&6\"Hijo mío, si lo que dice es verdadero, entonces nuestra guerra acaba de comenzar.\" &e&oDijo S'kellak, preocupado."				""
-				"&8&oEn lo profundo del End, la grieta se cierra, y un portal oscuro se abre."				""
-				"&8Español"				""
-				"***"				"&7El Ignoto ha sido capturado y atrapado dentro de Vaaz, S'kellak lo interrogó."				""
-				"&9\"C' mgepmgah, llll h', c'den ephaiagl ot e'enhe, ymg' ahorna mgah ahf''s nog, ymg' ahorna mgah uh'eog ph'nglui turor\" &e"				""
-				"&6\"Mi joven, si lo que dice es cierto, entonces nuestra guerra apenas comienza.\" &e&oDijo S'kellak, preocupado."				""
-				"&8&oEn lo profundo del End, la grieta se cierra, y un portal oscuro se abre."				""
-				"&8Español"			]
+				"&7The Faceless One has been captured and trapped inside Vaaz, S'kellak interrogated it."
+				""
+				"&9\"C' mgepmgah, llll h', c'den ephaiagl ot e'enhe, ymg' ahorna mgah ahf''s nog, ymg' ahorna mgah uh'eog ph'nglui turor\" &e&oThe Faceless said, in an unknown tongue"
+				""
+				"&6\"My child, if what it says is true, then our war has just started.\" &e&oSaid S'kellak, worried."
+				""
+				"&8&oDeep within the end, the rift closes, and a dark portal opens."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7El Ignoto ha sido capturado y atrapado dentro de Vaaz, S'kellak lo interrogó."
+				""
+				"&9\"C' mgepmgah, llll h', c'den ephaiagl ot e'enhe, ymg' ahorna mgah ahf''s nog, ymg' ahorna mgah uh'eog ph'nglui turor\" &e&oDijo el Ignoto, en una lengua desconocida."
+				""
+				"&6\"Mi joven, si lo que dice es cierto, entonces nuestra guerra apenas comienza.\" &e&oDijo S'kellak, preocupado."
+				""
+				"&8&oEn lo profundo del End, la grieta se cierra, y un portal oscuro se abre."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:writable_book"
@@ -1552,12 +1827,21 @@
 			dependencies: ["7CBAFED315D614C3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&eNivel Recomendado: 10"				"&cMás adecuado para Combate Cuerpo a Cuerpo. Consulta la Línea de Misiones del Nether para más información."				""
-				"&7Encontrado en el Inframundo, fue maldecido por lo que creyó que eran sus Aliados. Su reino fue sitiado y cayó bajo el mar de Lava, y el Rey solo pudo observar impotente mientras su mente y torso se marchitaban lentamente."				""
-				"&8Español"				""
-				"***"				"Nivel Recomendado: 10"				"Recomendado para Combate Cuerpo a Cuerpo."				""
-				"&7Encontrado en el Nether, fue maldecido por quienes creía que eran sus aliados. Su reino fue sitiado y cayó bajo el mar de lava, y el Rey solo pudo observar impotente mientras su mente y cuerpo se desmoronaban lentamente."				""
-				"&8Español"			]
+				"&eRecommended Level: 10"
+				"&cBetter suitable for Melee. Check out the Nether Questline for more info."
+				""
+				"&7Found in the Nether, he was cursed by what he thought was his allies. His kingdom was sieged and fell under the lava sea, and the King could only watch helplessly while his mind and body was slowly withering away."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 10"
+				"&cRecomendado para Melee."
+				""
+				"&7Encontrado en el Nether, fue maldecido por quienes pensaba que eran sus aliados. Su reino fue sitiado y cayó bajo el mar de lava, y el Rey solo pudo observar impotente mientras su mente y cuerpo se desmoronaban lentamente."
+				""
+				"&8Español"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "soulsweapons:withered_demon_heart"
@@ -1604,9 +1888,12 @@
 		{
 			dependencies: ["7AE1542456418BCD"]
 			description: [
-				"&eLos jefes de campaña tienen su propio nivel, al igual que tú lo haces, como se ve en la parte arriba de tu inventario."				""
-				"&cEsto significa que si no tienes un nivel lo suficientemente alto, no causarás suficiente daño para matarlos."				""
-				"&7En total causarás un &c10% menos de daño por diferencia de nivel&7, lo que significa que si tienes nivel 45 y un Umbo tiene nivel 50, solo causarás el 50% del daño total que deberías causar."			]
+                "&eLos jefes de la campaña tienen su propio nivel, al igual que tú, tal como se ve en la parte superior de tu inventario."
+                ""
+                "&cEsto significa que si no tienes un nivel lo suficientemente alto, no infligirás el daño necesario para matarlos."
+                ""
+                "&7En total, infligirás un &c10% menos de daño por cada nivel de diferencia&7; es decir, si eres nivel 45 y un jefe es nivel 50, solo infligirás el 50% del daño total que deberías causar."
+            ]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -1633,7 +1920,7 @@
 		{
 			can_repeat: true
 			dependencies: ["3A8C4B633BAF1EFF"]
-			description: ["&7Se ha sabido que acerca de 1 de cada 125 Aberraciones está mutado hasta cierto grado. La probabilidad es baja, pero Quizás esto pueda ser otro Método de obtener Ojos Omniosos."]			hide_until_deps_complete: true
+			description: ["&7Te han llegado rumores de que aproximadamente 1 de cada 125 Aberraciones está mutada hasta cierto punto. Las probabilidades son bajas, pero tal vez este sea otro método para obtener Ojos Omniosos."]			hide_until_deps_complete: true
 			icon: "eldritch_end:aberration_spawn_egg"
 			id: "34479B95BF592101"
 			rewards: [
@@ -1672,4 +1959,4 @@
 			y: 12.5d
 		}
 	]
-	title: "La Invasión del Vacío"}
+	title: " &d&lLa Invasión del Vacío"}

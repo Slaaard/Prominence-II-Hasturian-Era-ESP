@@ -957,7 +957,7 @@
 		}
 		{
 			description: [
-				"&7Llegar al Fin no es tan fácil como puedas pensar que es. Debes atravesar el Entorno, encontrar y matar Ubicaciones y Monstruos específicos."				""
+				"&7Llegar al End no es tan fácil como puedas pensar que es. Debes atravesar el Entorno, encontrar y matar Ubicaciones y Monstruos específicos."				""
 				"&7Cuántos ojos necesitas realmente depende de la suerte que tengas cuando encuentres la Fortaleza. Necesitarás encontrar 12 como máximo."			]
 			hide_lock_icon: true
 			hide_until_deps_complete: false
@@ -973,9 +973,9 @@
 			size: 2.0d
 			subtitle: "&e[Click para más información]"			tasks: [{
 				id: "50D87658349E58FB"
-				title: "Llegar al Fin"				type: "checkmark"
+				title: "Llegar al End"				type: "checkmark"
 			}]
-			title: "&d Llegar al Fin"			x: 0.0d
+			title: "&d Llegar al End"			x: 0.0d
 			y: 6.0d
 		}
 		{

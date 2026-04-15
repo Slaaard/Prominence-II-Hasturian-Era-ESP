@@ -212,7 +212,7 @@
 			description: [
 				""
 				"&7El &nGalena Bloque&r&7 es el tercer nivel y el último material de reforja."				""
-				"&7Se encuentra en el &dFin&7, obtenible mediante &ecrafteo&7 usando 2 &3Polvo de Galena&r&7 y 2 &3Fruta chorus horneada&r&8 (por 1 pieza)&7."				"&7Alternativamente, en lugar de usar Polvo de Galena, puedes usar &3Piedra del End&r."				""
+				"&7Se encuentra en el &dEnd&7, obtenible mediante &ecrafteo&7 usando 2 &3Polvo de Galena&r&7 y 2 &3Fruta chorus horneada&r&8 (por 1 pieza)&7."				"&7Alternativamente, en lugar de usar Polvo de Galena, puedes usar &3Piedra del End&r."				""
 				"&8* Polvo de Galena se puede encontrar en las profundas Cuevas de Overworld."				""
 				"&7Puede reforjarse a las siguientes cualidades:"				"&8- &3Raro"				"&8- &dÉpico"				"&8- &6Legendario"				"&8- &cMítico"			]
 			id: "2DE7359A85169236"

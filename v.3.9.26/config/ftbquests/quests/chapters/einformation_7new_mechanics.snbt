@@ -353,7 +353,7 @@
 				"&7Las siguientes guías te indicarán qué buscar dependiendo de tipos de construcción específicos. Estas no son estructuras terminadas, son solo guías para que sigas sobre qué equipo elegir dependiendo de tus acciones del juego."				""
 				"&eLa dificultad visible se aplica a ambos, lo difícil que es jugarlo, y lo difícil que es construir la estructura &7(Aunque la dificultad de Acciones del Juego tiene más prioridad)&7."				""
 				"&6¿Cómo funcionan los niveles?"				""
-				"&7Nivel I: &eEquipo Inicial &8(Overworld)"				"&eNivel II: &eJuego Temprano &8(Post Nether)"				"&6Nivel III: &eJuego Medio &8(Post-Fin)"				"&cNivel IV: &eJuego Tardío/Fin del Juego &8(Post Artefactos)"				"&dNivel V: &e&kPrimordial&r &8(Desconocido)"				""
+				"&7Nivel I: &eEquipo Inicial &8(Overworld)"				"&eNivel II: &eJuego Temprano &8(Post Nether)"				"&6Nivel III: &eJuego Medio &8(Post-End)"				"&cNivel IV: &eJuego Tardío/Fin del Juego &8(Post Artefactos)"				"&dNivel V: &e&kPrimordial&r &8(Desconocido)"				""
 				"&eEsto parte de la línea de misión puede volverse compleja. Para obtener Más Información sobre conseguir Libros de Habilidad, por favor, lee la línea de misión de Lanzamiento de Hechizos."				""
 				"&6Para guías llenas sobre construcciones específicas, ¡verifica la wikia oficial!"			]
 			hide_until_deps_visible: true
